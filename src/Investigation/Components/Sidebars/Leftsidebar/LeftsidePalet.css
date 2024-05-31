@@ -1,0 +1,169 @@
+.leftpalet {
+  color: var(--name-email);
+  display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0rem 1rem 0rem 1rem;
+    align-items: flex-start;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: var(--name-email);
+}
+.properties-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.properties-container .properties {
+  display: flex;
+  justify-content: space-between;
+}
+
+.properties-container .properties .properties-filed {
+  /* color: #1C1C1C80; */
+  color: var(--name-email);
+}
+
+.properties-container .properties .properties-value {
+  font-weight: "bold";
+  /* color: #000000DE; */
+  color: var(--name-email);
+}
+
+.searchElement {
+  border-color: red !important ;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-1h51icj-MuiAutocomplete-root
+  .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root
+  .MuiOutlinedInput-root {
+  color: var(--name-email);
+  padding: 0px;
+}
+
+/* accordion item color */
+.e-accordion .e-acrdn-item .e-acrdn-panel .e-acrdn-content > * {
+  background-color: var(--sidebar-bg);
+}
+
+.e-accordion .e-acrdn-item.e-select {
+  border: none;
+}
+.e-accordion .e-acrdn-item.e-select:last-child {
+  border: none;
+}
+.e-accordion .e-acrdn-item.e-select {
+  background-color: var(--sidebar-bg);
+}
+.e-accordion .e-acrdn-item .e-acrdn-header .e-acrdn-header-content {
+  color: var(--name-email);
+}
+.e-accordion
+  .e-acrdn-item.e-select.e-selected.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-icon,
+.e-accordion
+  .e-acrdn-item.e-select.e-selected.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-content,
+.e-accordion
+  .e-acrdn-item.e-select.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-icon,
+.e-accordion
+  .e-acrdn-item.e-select.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-content {
+  color: var(--name-email);
+}
+.e-accordion .e-acrdn-item .e-acrdn-header .e-acrdn-header-content {
+  font-size: 17px;
+}
+
+.e-accordion
+  .e-acrdn-item.e-select.e-selected.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-icon,
+.e-accordion
+  .e-acrdn-item.e-select.e-selected.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-content,
+.e-accordion
+  .e-acrdn-item.e-select.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-icon,
+.e-accordion
+  .e-acrdn-item.e-select.e-expand-state
+  > .e-acrdn-header
+  .e-acrdn-header-content:hover {
+  color: var(--name-email);
+}
+
+.e-acrdn-item .e-select .e-acrdn-header .e-acrdn-header-content:hover {
+  color: var(--name-email) !important;
+}
+
+#TreatActor {
+  padding-left: 10px !important;
+}
+#connectors {
+  padding-left: 20px !important;
+}
+#cyberInvestigation {
+  padding-left: 10px !important;
+}
+#TreatHunting {
+  padding-left: 10px !important;
+}
+#TreatIntel {
+  padding-left: 10px !important;
+}
+
+#CyberInvestigation {
+  padding-left: 10px !important;
+}
+
+.e-symbolpalette .e-symbol-selected {
+  background: none;
+}
+
+.leftpalet .e-remove-palette{
+  /* overflow: auto; */
+    height: 10rem;
+    /* padding-left: 11px; */
+}
+.leftpalet .e-acrdn-header {
+  padding: 0 !important;
+  /* overflow: auto;
+    height: 10rem; */
+  /* padding-left: 11px; */
+}
+/* .Container_left_mid #palette-space .leftpalet #symbolpalette .symbolpalette_container .e-acrdn-header-content #acrdn_header_58{
+  background-color: red !important;
+} */
+
+.Container_left_mid #symbolpalette .e-acrdn-header-content {
+  color: var(--name-email) !important;
+}
+
+.symbolpalette > #symbolpalette_container {
+  min-width: 18rem;
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1834px) {
+  #ThreatHunting {
+    margin: 0px 1.3rem;
+  }
+  #ThreatIntel{
+    margin: 0px 0.9rem;
+  }
+}
+@media screen and (min-width: 1484px) {
+  .resposnsive-container{
+    min-width: 18rem;
+  }
+}

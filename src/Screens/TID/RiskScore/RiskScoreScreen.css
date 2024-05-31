@@ -1,0 +1,48 @@
+.parent-div-risk-score {
+  height: auto;
+  border-radius: 4px;
+  background: var(--breadcrumb-color);
+  margin: 0px 15px !important;
+}
+
+.risk-score-button-div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px 0px 0px;
+  color: var(--name-email);
+}
+
+.create-profile-button {
+  border-radius: 4px;
+  padding: 12px 22px;
+}
+
+#risk-score-download {
+  color: var(--name-email);
+  border-color: var(--risk-score-download-button-color);
+  padding: 8px 22px;
+  border-radius: 4px;
+}
+
+.tabs-riskScore
+  #TID-tab
+  .e-tab
+  .e-tab-header:not(.e-vertical)
+  .e-toolbar-item.e-active {
+  background-color: var(--investigation-container);
+}
+
+.tabs-riskScore .e-tab .e-tab-header:not(.e-vertical) .e-toolbar-item.e-active {
+  background-color: var(--main-bg-color) !important;
+}
+
+.tabs-riskScore .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap:focus,
+#e-item-defaultTab_1:focus,
+#e-item-defaultTab_2:focus,
+#e-item-defaultTab_3:focus {
+  margin-bottom: 0 !important;
+  color: var(--name-email) !important;
+  background-color: var(--tab-switch-color) !important;
+}

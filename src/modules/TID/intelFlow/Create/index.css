@@ -1,0 +1,723 @@
+.stepper-Heading-box {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1.875rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #8e97a4;
+  border: 1px solid #2a3c57;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  background: #0082f91f;
+}
+
+.stepper-Heading-box-active {
+  border: 1px solid #0082f9;
+}
+
+.previewForm_title-Desc {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.css-1g66d9k-MuiSwitch-root
+  .MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: #1890ff !important;
+}
+
+.css-1g66d9k-MuiSwitch-root .MuiSwitch-track {
+  border-radius: 8px;
+  opacity: 1;
+  box-sizing: border-box;
+  background: #2a3c57 !important;
+}
+
+.label_details_form {
+  color: #fff;
+}
+
+.input_details_form {
+  margin-top: 0.7rem;
+}
+
+.custom_accordion {
+  background-color: #08172f !important;
+}
+
+.accordion_assoc_form {
+  display: grid;
+  gap: 2rem;
+}
+
+.accordion_assoc_form > div > div > div {
+  color: #fff !important;
+}
+
+.accordion_assoc_form > div > div {
+  border: 1px solid #2a3c57 !important;
+  border-radius: 6px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: #fff !important;
+}
+
+.assoc_form_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.assoc_form_btn_delete {
+  border: 1px solid red;
+  background-color: #533f40;
+  color: #fff;
+  border-radius: 7px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 6rem;
+  margin-top: 1rem;
+}
+
+.custom_div_assoc_form {
+  display: grid;
+  gap: 1rem;
+}
+
+.previewForm_title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  color: #fff;
+  margin: 0 AUTO;
+}
+
+.previewForm_title_Assoc_title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  color: #fff;
+  margin: 0 AUTO;
+  width: 95%;
+}
+
+.previewform_input_table_header {
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #8e97a4;
+  line-height: 24px;
+  size: 12px;
+  font-size: 15px;
+  width: 95%;
+  margin: 0 auto;
+  color-scheme: dark !important;
+}
+
+.previewform_input_table {
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #8e97a4;
+  line-height: 24px;
+  size: 12px;
+  font-size: 15px;
+  width: 95%;
+  margin: 0 auto;
+  color-scheme: dark !important;
+}
+
+.previewform_input_table_aliases {
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #8e97a4;
+  line-height: 24px;
+  size: 12px;
+  font-size: 15px;
+  width: 95%;
+  margin: 0 auto;
+  margin-left: 1.5rem !important;
+  color-scheme: dark !important;
+}
+
+.previewform_input_table_Is_Publicly {
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #fff;
+  line-height: 24px;
+  size: 12px;
+  font-size: 15px;
+  width: 95%;
+  margin: 0 auto;
+  color-scheme: dark !important;
+  display: flex;
+}
+
+.Previewform_headers_section {
+  width: 100%;
+  background: #112038;
+  padding: 10px;
+  border: 1px solid #1e2b40;
+  border-radius: 8px;
+  padding: 12px 0px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.4rem;
+}
+
+.PreviewForm_icon_title_change {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+.PreviewForm_Icon_Title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.PreviewForm_Icon_Title_campaign {
+  display: flex;
+  margin-left: 1.5rem;
+  gap: 1rem;
+}
+
+.mitre-attack-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.mitre-attack-form-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mitre-attack-form-container-header .header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mitre-attack-form-container-header .header-section .head {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.mitre-attack-form-container-header .header-section .desc {
+  color: #8e97a4;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.mitre-attack-form-container-main {
+  gap: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+  overflow: auto;
+  height: 85vh;
+}
+
+.mitre-attack-form-container-main-tactic-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mitre-attack-form-container-main-tactic-section .header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header-section .header-title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.header-section .header-length {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #8e97a4;
+}
+
+.intel-technique-container {
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.intel-technique-name-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intel-dialpad-svg {
+  border: 1px solid rgba(0, 130, 249, 1);
+  border-radius: 7px;
+  padding: 4px 4px 0px 4px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.intel-dialpad-close-svg {
+  border: 1px solid rgba(142, 151, 164, 1);
+  border-radius: 7px;
+  padding: 4px 4px 0px 4px;
+  cursor: not-allowed;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.intel-technique-container-selected {
+  background: #0082f9 !important;
+}
+
+.main-box-subtech {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.render-new-icon-box {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.intel-technique-container-selected-open {
+  background: #0082f9 !important;
+    border-radius: 0.5rem !important;
+    padding: 1rem !important;
+}
+
+.PreviewForm_icon_title_stepper_heading {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.preview_summary_desc {
+  display: grid;
+  grid-auto-flow: row;
+  margin-bottom: 1rem;
+}
+
+.wmde-markdown {
+  width: 93%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.techniques_mitre_attack {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: currentColor !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  color: currentColor !important;
+}
+
+.describe_form_aliases_span {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.add_btn_aliases {
+  background: #2a3c57;
+}
+
+.css-1eed2tb-MuiAutocomplete-root {
+  width: 98%;
+  height: 12vh;
+}
+
+.MuiInput-underline:before,
+.MuiInput-underline:after {
+  border-bottom-color: transparent !important;
+}
+
+.input_Fields_describe {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.margin-left-important {
+  margin-left: 1.5rem !important;
+}
+
+.preview_markdown {
+  background: #283548 !important;
+  padding: 0.5rem !important;
+  border-radius: 6px !important;
+  max-width: fit-content !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  color: white !important;
+}
+
+.sub_preview_markdown {
+  background: #283548 !important;
+  padding: 0.5rem !important;
+  border-radius: 6px !important;
+  max-width: fit-content !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  color: white !important;
+}
+
+.control_desc_dailogue_box_read_more {
+  height: 28.8rem;
+  width: 30rem !important;
+}
+
+.control_desc_dailogue_content {
+  padding: 1rem;
+  background: rgba(8, 23, 47, 1);
+  border-radius: 0.7rem;
+  margin: 0rem 1.9rem;
+  color: white !important;
+  height: 19rem;
+}
+
+.input_field_report {
+  padding-left: 15px;
+  padding-bottom: 3px;
+  /* background-color: #2a3c57; */
+  margin: auto 0.4rem auto auto;
+}
+
+.input_field_report > div {
+  margin-bottom: 0.5rem !important;
+  padding-left: 0px !important;
+}
+
+.fakir_input_field {
+  display: flex;
+  gap: 1.3rem;
+  margin-right: 1.5rem;
+  background: rgba(0, 130, 249, 0.16);
+  border: 1px solid #0082f9;
+  border-radius: 10px;
+  height: 3rem;
+}
+
+.custom_css_details_form_grouping {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.preview_detials_custom_css {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.fakir_btn_create {
+  color: #fff !important;
+  background-color: #1976d2 !important;
+}
+
+.DC_input_style {
+  width: 100%;
+}
+
+.mt_important {
+  margin-top: 0.4rem !important;
+}
+
+.time_taken_fakir_ai_response {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 2rem;
+  margin-top: -1rem;
+}
+
+/* CSS for Create Module */
+.back-to-threats {
+  padding: 1rem !important;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1.25rem;
+  background: #091932 !important;
+  border: 1px solid #1e2b40 !important;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.tid-entity-card-threat {
+  width: 99%;
+  padding: 0 1em;
+  border-radius: 0.375rem;
+  background: #08172f;
+  border: 1px solid #1e2b40;
+}
+
+.select-create-object {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.tid-entity-all-cards {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  /* row-gap: 2rem; */
+  place-items: center;
+}
+@media only screen and (min-width: 1880px) {
+  .tid-entity-all-cards {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .tid-entity-all-cards {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tid-entity-all-cards {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
+
+.tid-entity-card-child {
+  /* width: 99%; */
+  padding: 1em;
+  height: max-content;
+  overflow: hidden;
+  border-radius: 0.375rem;
+  background: #112038;
+  border: 1px solid #1e2b40;
+}
+
+.tid-entity-card-child:hover {
+  border: 1px solid #0082f9;
+}
+
+.tid-entity-card-child:hover > * {
+  border: none;
+}
+
+.tid-entity-card-child:hover {
+  cursor: pointer;
+}
+
+.entity-icon {
+  padding: 1rem;
+  background: #343d4c;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  border-radius: 0.375rem;
+  color: #fff;
+}
+
+.selected-entity-card .entity-icon {
+  background-color: #ffffff29;
+}
+
+.title-main-head .title-main-text .title-description {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.013rem;
+  color: #8e97a4;
+}
+
+.goto-step1 {
+  padding: 0.3rem 2rem;
+  text-transform: none;
+  background-color: #0082f9;
+  border-radius: 0.3rem;
+  text-transform: none;
+  border: 1px solid #1e2b40;
+  cursor: pointer;
+  margin: 1rem;
+  justify-self: flex-end;
+}
+
+.bg_main_treat {
+  border-radius: 0.7rem;
+  background: #08172f;
+  border: 1px solid #1e2b40;
+  margin-bottom: 2rem;
+}
+
+.tid-entity-card-main {
+  width: 99%;
+  padding: 0 1em;
+  /* height: 15.375rem; */
+  /* border-radius: 0.375rem;
+  background: #08172f;
+  border: 1px solid #1e2b40; */
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal_line_threat {
+  border-color: #2a3c57 !important;
+  width: 96%;
+}
+
+.sub_horizontal_line_threat {
+  border-color: #2a3c57 !important;
+  width: 100%;
+}
+
+.stepper-Heading {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+}
+
+.stepper-main {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+  margin: 0 auto;
+  border: 2px solid;
+  border-color: #1e2b40 !important;
+  padding: 1rem;
+  border-radius: 7px;
+  margin-top: 1.5rem;
+}
+
+.stepper-secondary {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 7px;
+  margin-top: 1.5rem;
+}
+
+.DC-Btn_previous {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  grid-column: 2 / span 2;
+}
+
+.PreviewForm_Parent {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+}
+
+.responsive_form_text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.responsive_form_text .from-input {
+  height: 24px !important;
+  color: var(--filename) !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.17px !important;
+}
+
+.custom_mark_describe {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.Toggle-div-css {
+  display: flex;
+  align-items: center;
+}
+
+.mtr-techniques-name {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  width: 20rem;
+}
+
+.mtr-tactic-name {
+  font-weight: 500;
+  size: 1rem;
+  line-height: 1.4rem;
+}
+
+.tech {
+  padding: 0.5rem 0rem;
+  color: var(--mitre-technique-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.intel-mtr-subtech-name-isUsed {
+  background-color: rgba(0, 130, 249, 1);
+  color: white;
+  padding: 0.7rem 0 0.7rem 0.6rem;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.intel-mtr-subtech-name {
+  padding: 0.7rem 0 0.7rem 0.6rem;
+}

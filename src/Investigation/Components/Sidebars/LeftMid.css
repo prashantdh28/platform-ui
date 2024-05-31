@@ -1,0 +1,81 @@
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.row-header {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.e-checkbox-wrapper .e-label {
+  font-size: 12px;
+}
+.e-toggle-palette::before {
+  content: "\e700";
+}
+#toolbar_diagram.e-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn.e-btn.e-tbtn-txt
+  .e-icons.e-btn-icon {
+  padding: 3px;
+}
+@media (max-width: 550px) {
+  #palette-icon {
+    font-size: 20px;
+  }
+}
+
+.sb-mobile-palette-open {
+  position: absolute;
+  display: block;
+  right: 15px;
+}
+.palette-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  height: 100%;
+}
+#palette-space {
+  grid-column: 1/3;
+  background-color: var(--sidebar-bg);
+}
+
+#diagram-space {
+    grid-column: 3/9;
+  background-color: var(--middlepart);
+}
+/* Plus icon accordion */
+.e-acrdn-header-active .e-acrdn-header-icon.e-icons:before {
+  content: "\f056";
+}
+.e-accordion .e-tgl-collapse-icon::before {
+  content: "\e823";
+}
+
+.e-accordion .e-tgl-collapse-icon.e-expand-icon::before {
+  content: "\e934";
+}
+.e-accordion .e-tgl-collapse-icon::before {
+  content: "\e823";
+  font-weight: 400;
+  font-size: 15px;
+  color: gray;
+}
+
+.e-accordion .e-tgl-collapse-icon.e-expand-icon::before {
+  content: "\e934";
+}
+
+/* accordion border */
+#symbolpalette_container {
+  border: none !important;
+}
+.e-accordion .e-acrdn-item.e-selected.e-select.e-active {
+  border: none !important;
+}
+
+.mainDiv  .Container_left_mid #diagram #diagramcontent {
+  overflow: hidden !important;
+}

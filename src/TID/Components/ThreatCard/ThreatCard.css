@@ -1,0 +1,90 @@
+.DC_threat_card {
+  background-color: var(--DC-card-background);
+  padding: 10px;
+  width: 26.063rem;
+  border-radius: 7px;
+  color: var(--name-email);
+    padding: 10px;
+    transition: all 0.9s ease;
+    align-self: self-start;
+    width: auto;
+    max-height: 11rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: max-height 1s; /* Transition for background color */
+}
+
+.DC_threat_card:hover {
+  max-height: 50rem; /* Background color on hover */
+  background: var(--card-hover-background);
+}
+
+.DC_threat_card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DC_allCards {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  /* row-gap: 2rem; */
+  place-items: center;
+}
+@media only screen and (min-width: 1880px) {
+  .DC_allCards {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap : 1rem ;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .DC_allCards {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .DC_allCards {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
+
+.DC_threat_card_IconAndName {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-left: 0.9rem;
+}
+.DC_icon{
+  padding: 0 1rem;
+}
+
+.DC_checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  outline: none;
+}
+
+.DC_threat_card_desc {
+  margin: 1rem;
+  background: var(--DC-card-desc-background); /* Set your default background color */
+}
+
+.showDesc {
+  max-height: 50rem; /* Background color on hover */
+  background: var(--card-hover-background);
+}
+
+.DC_nextBtn {
+  display: flex;
+  float: right;
+  margin-left: auto;
+  margin-bottom: 1rem;
+}

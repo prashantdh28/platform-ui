@@ -1,0 +1,83 @@
+.e-chip-list.e-selection .e-chip.e-active {
+  background: rgb(62, 107, 247);
+  border-color: transparent;
+  color: #fff;
+}
+
+.input-chips .e-chip.e-active {
+  background: rgb(62, 107, 247) !important;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.input-chips .e-chip.e-active .e-chip-text {
+  color: #fff !important;
+}
+
+.e-chip-list.e-chip,
+.e-chip-list .e-chip {
+  background: var(--input-chip-color);
+  border-color: transparent;
+  color: var(--name-email);
+}
+
+.e-chip-list.e-chip .e-chip-delete.e-dlt-btn::before,
+.e-chip-list .e-chip .e-chip-delete.e-dlt-btn::before {
+  color: var(--cross-color);
+  font-size: 14px;
+}
+
+body[data-theme="#20A427"] .e-chip:hover {
+  background-color: #20a427;
+  color: #fff;
+}
+body[data-theme="#612EF2"] .e-chip:hover {
+  background-color: #612ef2;
+  color: #fff;
+}
+body[data-theme="#3E6BF7"] .e-chip:hover {
+  background-color: #3e6bf7;
+  color: #fff;
+}
+body[data-theme="#d7f429"] .e-chip:hover {
+  background-color: #d7f429;
+  color: #fff;
+}
+
+.custom-chip {
+  background: blue;
+}
+
+.e-footer-content .e-btn.e-primary.e-flat:not([DISABLED]) {
+  background: rgb(62, 107, 247) !important;
+  color: #fff !important;
+}
+
+.e-confirm-dialog
+  .e-control
+  .e-dialog
+  .e-lib
+  .e-dlg-modal
+  .e-popup
+  .e-popup-open {
+  top: 50px;
+}
+
+.e-dlg-container .e-alert-dialog.e-dialog.e-popup,
+.e-confirm-dialog.e-dialog.e-popup {
+  top: 50px !important;
+}
+
+.e-dialog .e-dlg-header-content + .e-dlg-content {
+  background-color: var(--container-bg-color) !important;
+  color: var(--name-email) !important;
+  border-radius: 0px !important;
+}
+
+.e-dialog .e-dlg-content {
+  border-radius: 0px;
+}
+
+.e-dialog .e-footer-content {
+  background-color: var(--container-bg-color) !important;
+}

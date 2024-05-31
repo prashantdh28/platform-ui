@@ -1,0 +1,251 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-icons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-dropdowns/styles/material.css";
+/* @import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css"; */
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-navigations/styles/material.css";
+
+.dark-theme {
+  --scrollbar-color: rgba(63, 63, 63, 0.5);
+  --main-bg-color: #1c1c1c;
+  --appbar-icon-color: #a4a4a4;
+  --appbar-header-color: #252525;
+  --logo-color: white;
+  --name-email: #ffffff;
+  --profile-down-icon: white;
+  --container-bg-color: #252525;
+  --name-info: white;
+  --container-color: black;
+  --card-text-color: #ffffff;
+  --button-tag-color: #373737;
+  --button-tag-text-color: #fff;
+  --desc-color: #fff;
+  --noOfbutton-border-color: rgba(255, 255, 255, 0.1);
+  --breadcrumb-backside-color: #252525;
+  --grey-color: #918f8f;
+  --hover-color: rgb(62, 107, 247);
+  --activity-table-icon-color: rgba(255, 255, 255, 0.2);
+  --search-icon-color: rgba(255, 255, 255, 0.56);
+  --searchbar-border-color: rgba(255, 255, 255, 0.56);
+  --comment-border-bottom: rgb(255, 255, 255);
+  --comment-desc: rgba(255, 255, 255, 0.6);
+  --borderTop: rgba(255, 255, 255, 0.05);
+  --sidebar-bg: #252525;
+  --middlepart: black;
+  --investigation-container: #1c1c1c;
+  --comment-border-bottom: rgb(255, 255, 255);
+  --comment-desc: rgba(255, 255, 255, 0.6);
+  --sidebar-bg: #252525;
+  --social-readmode-background: rgba(28, 28, 28, 1);
+  --like-replies-color: rgba(97, 97, 97, 1);
+  --socialread-text-header: rgba(255, 255, 255, 0.5);
+  --tab-switch-color: #3f3f3f;
+  --input-chip-color: #363636;
+  --cross-color: rgb(106, 106, 106);
+  --breadcrumb-color: #252525;
+  --course-of-action-table: #3f3f3f;
+  --filename: rgba(255, 255, 255, 0.87);
+  --draft-to-version: #fff;
+  --fieldname: rgba(255, 255, 255, 0.5);
+  --commentbox-underline: rgba(255, 255, 255, 0.1);
+  --all-commentsbox: rgba(255, 255, 255, 0.03);
+  --itab: #1c1c1c;
+  --hometabicon: rgb(159, 159, 159);
+  --message-bg: #252525;
+  --msg_time: rgba(173, 181, 189, 1);
+  --back: rgba(255, 255, 255, 0.5);
+  --graph-link-text-color: rgba(255, 255, 255, 0.5);
+  --graph-link-connector-color: #ffffff80;
+  --detection-text-color: #ffffffde;
+  --detection-fieldname: #ffffffde;
+  --detection-button-color: #ffffff8f;
+  --rules-list-Dialog-background-color: #252525;
+  --rules-list-Dialog-head-color: #ffffff;
+  --risk-score-download-button-color: rgba(255, 255, 255, 0.23);
+  --risk-score-box-color: rgba(255, 255, 255, 0.05);
+  --risk-score-bg-color: #252525;
+  --draft: rgba(255, 255, 255, 0.87);
+  --message-bg: #252525;
+  --msg_time: rgba(173, 181, 189, 1);
+  --back: rgba(255, 255, 255, 0.5);
+  --graph-link-text-color: rgba(255, 255, 255, 0.5);
+  --graph-link-connector-color: #ffffff80;
+  --detection-text-color: #ffffffde;
+  --detection-fieldname: #ffffffde;
+  --detection-button-color: #ffffff8f;
+  --rules-list-Dialog-background-color: #252525;
+  --rules-list-Dialog-head-color: #ffffff;
+  --draft-button-background: rgba(255, 255, 255, 0.1);
+  --private-button-background: rgba(62, 107, 247, 0.2);
+  --back-button-color: rgba(255, 255, 255, 0.5);
+  --form-label-color: rgba(255, 255, 255, 0.5);
+  --content-text: rgba(255, 255, 255, 0.87);
+  --template-color: rgba(235, 235, 235, 0.1);
+  --hover-text-color: 28, 28, 28, 0.05;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --file-uploader-text-color: rgba(255, 255, 255, 0.6);
+  --ThreatCoverage-table-background: #333;
+  --TID-ThreatCoverage-Subheaders: #333333;
+  --TID-ThreatCoverage-Lines: #ffffff1a;
+  --TID-RichText-Modal: #252525;
+  --TID-ModalBorder: #4c4646
+  --TID-ThreatCoverage-Tabs: "#1c1c1c";
+  --Profile-Image-color: #fff;
+  --DC-card-background: rgba(28, 28, 28, 0.5);
+  --DC-head-text-color: #FFFFFF;
+    --DC-head-desc-color: #FFFFFF99;
+    --sub-technique-box-border-color: #FFFFFF0D;
+    --sub-technique-box-bg-color: #303030;
+    --sub-technique-box-icon-bg-color: #444444;
+    --DC-input-lable-color:rgb(255, 255, 255);
+    --card-hover-background:rgb(39,44,58);
+}
+
+.light-theme {
+  --scrollbar-color: rgba(28, 28, 28, 0.12);
+  --main-bg-color: #f4f4f4;
+  --appbar-icon-color: #3a3a3a;
+  --appbar-header-color: #ffffff;
+  --logo-color: black;
+  --name-email: #1c1c1c;
+  --profile-down-icon: black;
+  --container-bg-color: #ffffff;
+  --name-info: #000;
+  --container-color: white;
+  --card-text-color: #1c1c1c;
+  --button-tag-color: rgba(0, 0, 0, 0.08);
+  --button-tag-text-color: #000000;
+  --desc-color: rgba(28, 28, 28, 0.6);
+  --noOfbutton-border-color: rgba(28, 28, 28, 0.1);
+  --breadcrumb-backside-color: #ffffff;
+  --grey-color: #918f8f;
+  --hover-color: rgb(62, 107, 247);
+  --activity-table-icon-color: rgba(0, 0, 0, 0.2);
+  --search-icon-color: rgba(0, 0, 0, 0.56);
+  --searchbar-border-color: rgba(0, 0, 0, 0.56);
+  --comment-border-bottom: black;
+  --comment-desc: rgba(28, 28, 28, 0.6);
+  --borderTop: rgba(28, 28, 28, 0.1);
+  --sidebar-bg: white;
+  --middlepart: #f4f4f4;
+  --investigation-container: #f4f4f4;
+  --social-readmode-background: rgba(243, 243, 243, 1);
+  --like-replies-color: rgba(97, 97, 97, 1);
+  --socialread-text-header: rgba(28, 28, 28, 0.5);
+  --tab-switch-color: #f4f4f4;
+  --input-chip-color: rgb(237, 237, 237);
+  --cross-color: rgb(183, 183, 183);
+  --breadcrumb-color: #fff;
+  --course-of-action-table: #f4f4f4;
+  --filename: rgba(28, 28, 28, 0.87);
+  --draft-to-version: #1c1c1c;
+  --fieldname: rgba(28, 28, 28, 0.5);
+  --commentbox-underline: rgba(0, 0, 0, 0.1);
+  --all-commentsbox: rgba(28, 28, 28, 0.03);
+  --itab: #f5f5f5;
+  --hometabicon: rgb(145, 145, 145);
+  --draft: rgba(28, 28, 28, 0.87);
+  --message-bg: #fff;
+  --msg_time: rgba(173, 181, 189, 1);
+  --back: rgba(28, 28, 28, 0.5);
+  --graph-link-text-color: rgba(28, 28, 28, 0.5);
+  --graph-link-connector-color: #1e1e1e80;
+  --detection-text-color: #0000003b;
+  --detection-fieldname: #1c1c1cde;
+  --detection-button-color: #0000008f;
+  --detection-table--header-background-color: #f4f4f4;
+  --rules-list-Dialog-background-color: #ffffff;
+  --rules-list-Dialog-head-color: #1c1c1c;
+  --risk-score-download-button-color: rgba(28, 28, 28, 0.23);
+  --risk-score-box-color: rgba(28, 28, 28, 0.05);
+  --risk-score-bg-color: #f4f4f4;
+  --message-bg: #fff;
+  --msg_time: rgba(173, 181, 189, 1);
+  --back: rgba(28, 28, 28, 0.5);
+  --graph-link-text-color: rgba(28, 28, 28, 0.5);
+  --graph-link-connector-color: #1e1e1e80;
+  --detection-text-color: #0000003b;
+  --detection-fieldname: #1c1c1cde;
+  --detection-button-color: #0000008f;
+  --detection-table--header-background-color: #f4f4f4;
+  --rules-list-Dialog-background-color: #ffffff;
+  --rules-list-Dialog-head-color: #1c1c1c;
+  --draft-button-background: rgba(0, 0, 0, 0.1);
+  --private-button-background: rgba(62, 107, 247, 0.3);
+  --back-button-color: rgba(0, 0, 0, 0.5);
+  --form-label-color: rgba(28, 28, 28, 0.6);
+  --content-text: rgba(0, 0, 0, 0.87);
+  --template-color: #ebebeb;
+  --hover-text-color: 28, 28, 28, 0.67;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --file-uploader-text-color: rgba(0, 0, 0, 0.6);
+  --ThreatCoverage-table-background: #f4f4f4;
+  --TID-ThreatCoverage-Subheaders: #1c1c1c1a;
+  --TID-ThreatCoverage-Lines: #1c1c1c1a;
+  --TID-RichText-Modal: #e9ecef;
+  --TID-ModalBorder: #f1f1f1;
+  --TID-ThreatCoverage-Tabs: "#ffffff";
+  --Profile-Image-color: rgba(0, 0, 0);
+  --DC-card-background: #f9f9f9;
+  --DC-head-text-color: #000000;
+    --DC-head-desc-color: #1C1C1C99;
+    --sub-technique-box-border-color: #1C1C1C0D;
+    --sub-technique-box-icon-bg-color: #dedede;
+    --sub-technique-box-bg-color: #f4f4f4;
+  --DC-input-lable-color:rgba(28, 28, 28, 0.6);
+  --card-hover-background:rgba(62, 107, 247, 0.1);
+
+}
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-main {
+  background-color: var(--main-bg-color);
+  min-height: 100vh;
+  padding-bottom: 2%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--main-bg-color);
+}
+
+.loadspan {
+  color: var(--main-bg-color);
+}
+.loadMore {
+  margin-bottom: 1%;
+}
+.App-link {
+  color: #61dafb;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

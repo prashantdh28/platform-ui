@@ -1,0 +1,24 @@
+.mitre-table-container {
+  margin: 0% 1%;
+  /* width: fit-content;  */
+  height: 580px;
+  background-color: var(--container-bg-color);
+  
+}
+
+.mitre-attacks-table {
+  width: auto;
+  background-color: var(--container-bg-color);
+  overflow: auto;
+  height: 500px;
+}
+
+.noData {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: var(--name-email);
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+}

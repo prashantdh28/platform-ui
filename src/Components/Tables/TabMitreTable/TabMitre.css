@@ -1,0 +1,13 @@
+.mitre-table-bg {
+  background-color: var(--container-bg-color);
+   padding: 0% 0.5%;
+}
+.noData {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: var(--name-email);
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+}

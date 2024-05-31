@@ -1,0 +1,94 @@
+#right-sidebar {
+  background-color: var(--main-bg-color);
+}
+
+.title {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 117px;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.17px;
+  justify-content: space-between;
+}
+
+.choose-style-icon {
+  cursor: pointer;
+}
+
+.image-main-screen {
+  display: flex;
+  justify-content: center;
+}
+
+.donut-section {
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.main-siderbar {
+  display: flex;
+  width: 418px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.choose-style-parent {
+  margin: 4% 3% 0% 2%;
+  background-color: var(--container-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  border-radius: 8px;
+  padding: 5%;
+}
+
+.choose-style-toggle {
+  margin: 4% 3% 0% 2%;
+  background-color: var(--container-bg-color);
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.right-toggle-button {
+  padding: 24px 16px;
+}
+
+.Toggle-ThemeText {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  padding: 24px 16px;
+  color: var(--name-email);
+}
+
+.themeMode-rightSide {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  color: var(--name-email);
+  display: flex;
+  justify-content: flex-start;
+}

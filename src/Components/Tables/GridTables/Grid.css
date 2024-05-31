@@ -1,0 +1,124 @@
+#defaultTab_tab_header_items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .activity-text {
+  background-color: var(--container-bg-color);
+  display: flex;
+  color: var(--name-email);
+  padding: 5px;
+  justify-content: space-between;
+} */
+
+.table-bg {
+  padding: 0% 1%;
+}
+
+.e-pager .e-currentitem .e-pager .e-currentitem {
+  background-color: var(--hover-color);
+}
+
+.e-pager .e-currentitem .e-pager .e-currentitem:focus {
+  background-color: var(--hover-color);
+}
+
+.e-indicator .e-ignore {
+  display: none;
+}
+
+.e-tab .e-tab-header .e-toolbar-items {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.custom-grid {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+  border: none;
+}
+
+.custom-grid .e-headercell {
+  background-color: var(--container-bg-color);
+  color: var(--grey-color);
+}
+
+.custom-grid .e-rowcell {
+  background-color: var(--container-bg-color) !important;
+  color: var(--name-info) !important;
+  cursor: pointer;
+}
+
+.custom-grid .e-rowcell:hover {
+  background-color: var(--container-bg-color) !important;
+  color: var(--grey-color) !important;
+}
+
+.custom-grid .e-rowcell:focus {
+  background-color: var(--container-bg-color) !important;
+  color: var(--name-info) !important;
+}
+
+.custom-grid .e-altrow {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+}
+
+.e-tab .e-tab-header:not(.e-vertical) .e-indicator {
+  display: none !important;
+}
+
+.e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-text,
+.e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-icon {
+  color: var(--name-email) !important;
+}
+.e-tab-text:hover {
+  color: var(--name-email) !important;
+}
+
+.top-activity {
+  display: flex;
+  align-items: center;
+}
+
+.top-table-search-dropdown {
+  display: flex;
+}
+
+#activity {
+  text-align: center;
+  align-items: center !important;
+  display: flex;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding-left: 1%;
+}
+
+.e-grid .e-gridheader {
+  border: none;
+}
+
+
+.top-activity {
+  display: flex;
+  align-items: center;
+}
+
+.top-table-search-dropdown {
+  display: flex;
+}
+
+#activity {
+  text-align: center;
+  align-items: center !important;
+  display: flex;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding-left: 1%;
+}
+
+.e-grid .e-gridheader {
+  border: none;
+}

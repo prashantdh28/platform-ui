@@ -1,0 +1,133 @@
+.bold-placeholder::placeholder {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+/* Scrollable container */
+.form-container {
+  max-height: 300px; /* Adjust the desired maximum height for scrolling */
+  overflow-y: auto;
+}
+
+/* Customize the scrollbar track */
+.form-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb */
+.form-container::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c1f; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Roundness of the scrollbar thumb */
+  height: 8px;
+}
+
+/* Customize the scrollbar thumb when hovered */
+.form-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.outerdiv {
+  display: flex;
+  margin: 10px;
+}
+
+.maininput {
+  width: 219px;
+  color: black;
+  margin-top: 2px;
+}
+
+.innerdiv {
+  /* margin-right: 25px; */
+}
+
+.donebtn {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 56px;
+  height: 30px;
+  padding: 4px, 10px, 4px, 10px;
+  border-radius: 4px;
+  background-color: #3e6bf7;
+  color: white;
+  border: none;
+  bottom: 2rem;
+    position: absolute;
+}
+
+.placeholderComment::-webkit-input-placeholder {
+  color: var(--name-email) !important;
+}
+.e-input-group input.e-input,
+.e-input-group textarea.e-input,
+.e-input-group
+  input.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ):not(:focus),
+.e-input-group
+  textarea.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ),
+.e-input-group.e-control-wrapper input.e-input,
+.e-input-group.e-control-wrapper textarea.e-input,
+.e-input-group.e-control-wrapper
+  input.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ):not(:focus),
+.e-input-group.e-control-wrapper
+  textarea.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ) {
+  background-color: var(--sidebar-bg) !important;
+}
+
+.e-input:not(:valid),
+.e-input:valid,
+.e-float-input.e-control-wrapper input:not(:valid),
+.e-float-input.e-control-wrapper input:valid,
+.e-float-input input:not(:valid),
+.e-float-input input:valid,
+.e-input-group input:not(:valid),
+.e-input-group input:valid,
+.e-input-group.e-control-wrapper input:not(:valid),
+.e-input-group.e-control-wrapper input:valid,
+.e-float-input.e-control-wrapper textarea:not(:valid),
+.e-float-input.e-control-wrapper textarea:valid,
+.e-float-input textarea:not(:valid),
+.e-float-input textarea:valid,
+.e-input-group.e-control-wrapper textarea:not(:valid),
+.e-input-group.e-control-wrapper textarea:valid,
+.e-input-group textarea:not(:valid),
+.e-input-group textarea:valid {
+  color: var(--name-email) !important;
+}
+
+.form-container-entity {
+  width: 458px;
+  height: 290px;
+  border-radius: 4px;
+  border: 0px, 0px, 1px, 0px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background: var(--sidebar-bg);
+  padding: 1rem;
+}
+
+.form-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container-controlls {
+
+  /* display: flex; */
+  gap: 10px;
+}
+
+#left_edit{
+  right: -8rem;
+}
+#add_prop{
+  right: -18rem;
+}

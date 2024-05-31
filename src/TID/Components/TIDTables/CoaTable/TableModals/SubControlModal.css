@@ -1,0 +1,9 @@
+.TID-sub-control-close-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+#TID-Table-Popup {
+  max-height: 500px;
+}

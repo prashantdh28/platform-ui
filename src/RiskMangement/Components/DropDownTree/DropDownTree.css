@@ -1,0 +1,107 @@
+.col-lg-8 {
+  width: 16%;
+  display: flex;
+  border: 1px solid var(--appbar-icon-color);
+}
+
+#_popup {
+  width: 15%;
+  left: 230.275px;
+  top: 123.9px;
+  top: 219.9px;
+  max-height: 15%;
+}
+
+.e-ddt .e-popup .e-lib .e-control .e-popup-open {
+  width: 15%;
+  left: 237.8px;
+  top: 228.9px;
+  z-index: 1001;
+  max-height: 200px;
+}
+
+#default {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#select-small-label {
+  color: var(--name-email) !important;
+  background-color: var(--appbar-header-color) !important;
+}
+
+#default .e-icons {
+  margin-left: 200px;
+}
+
+.MuiFormControl-root .css-1869usk-MuiFormControl-root {
+  width: 15%;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--name-email) !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: var(--tab-switch-color) !important;
+  color: var(--name-email) !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: var(--grey-color) !important;
+}
+
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+  color: var(--grey-color) !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: var(--grey-color) !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 32px;
+  color: var(--name-email);
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: #2196f3;
+}
+
+.dropdown-field-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.dropdown-field-icons {
+  padding-right: 5%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.main-select-div {
+  width: 100%;
+  margin-left: 0px;
+}
+
+#select-box-font {
+  color: var(--filename);
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.17px;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  fill: var(--filename) !important
+}
+
+.main-select-div .MuiOutlinedInput-notchedOutline{
+  color: var(--name-email);
+}

@@ -1,0 +1,496 @@
+.main-stepper-container,
+.main-stepper-container:hover {
+  padding: 32px 0px;
+  border: none !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--name-email);
+  background: var(--appbar-header-color);
+  width: 100%;
+}
+
+.stepper-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  width: 100%;
+  position: relative;
+}
+
+.MuiStepLabel-label {
+  color: #fff;
+}
+
+#tab-wizard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.teb-contant {
+  justify-content: center;
+}
+
+.Error {
+  color: red;
+}
+
+.back-btn-div {
+  display: flex;
+  align-items: center;
+}
+
+.back-btn {
+  padding: 0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  font-family: Roboto;
+  z-index: 1;
+  color: var(--back-button-color);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-back-btn {
+  border: none;
+  background-color: transparent;
+  font-family: Roboto;
+  color: var(--back-button-color);
+  cursor: pointer;
+}
+
+.download-btn-div {
+  position: absolute;
+  right: 32px;
+  display: flex;
+  gap: 15px;
+}
+
+.preview-page-div {
+  position: absolute;
+  right: 158px;
+}
+
+.svg-color-fill {
+  fill: var(--draft) !important;
+}
+
+.svg-color-stroke {
+  stroke: var(--draft) !important;
+}
+
+.download-btn {
+  display: flex;
+  width: 160px;
+  padding: 8px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--risk-score-download-button-color);
+}
+
+.prieview-btn {
+  display: flex;
+  width: 137px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.dowmload-name {
+  color: var(--content-text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin-left: 10px;
+}
+
+.form-label {
+  color: var(--form-label-color) !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  /* 100% */
+  letter-spacing: 0.15px;
+}
+
+.form-label .e-label {
+  color: var(--draft) !important;
+}
+
+.e-card:active {
+  background-color: var(--appbar-header-color) !important;
+}
+
+/*form1 css */
+
+.form1-main-cointainer {
+  padding-right: 40px;
+  padding-left: 8px;
+  width: 35%;
+}
+
+.responsive-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.responsive-form .from-input {
+  height: 24px !important;
+  color: var(--filename) !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.17px !important;
+}
+
+.input-border {
+  border-color: var(--border-color) !important;
+}
+
+.form-textarea {
+  margin: 0px !important;
+  color: var(--filename) !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.17px !important;
+}
+
+/* .input-group>div>div {
+  border-bottom: 1px solid var(--border-color) !important;
+} */
+
+.e-checkbox-wrapper:hover .e-frame.e-check {
+  background-color: rgb(62, 107, 247) !important;
+}
+
+.check-box-div {
+  display: flex;
+}
+
+.check-box-div > div {
+  width: 100%;
+}
+
+.select-box-font {
+  color: var(--content-text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.17px;
+}
+
+.form1-btn-group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form1-delete-btn {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 8px 22px;
+  border-radius: 4px;
+  border-color: 1px solid #c62828 !important;
+  color: #c62828;
+}
+
+.form1-delete-btn:hover {
+  background: rgba(28, 28, 28, 0.12) !important;
+  border-color: white !important;
+  color: #d64113 !important;
+}
+
+.e-btn.e-outline.e-danger:disabled {
+  border-color: #c62828;
+  color: #c62828;
+}
+
+.form-next-btn {
+  height: 30px;
+  border-radius: 4px;
+}
+
+.form1-modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form1-modal-content {
+  color: var(--form-label-color);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.modal-btn-group {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  border: none !important;
+}
+
+.form-modal > div {
+  border-radius: 0px !important;
+  background: var(--breadcrumb-color) !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
+}
+
+.custom-outline-button {
+  display: flex;
+  width: 47px;
+  height: 30px;
+  padding: 8px 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--risk-score-download-button-color) !important;
+  color: var(--filename) !important;
+  background-color: var(--message-bg) !important;
+  cursor: pointer;
+}
+
+/*form2 css */
+
+.form2-main-container {
+  color: var(--name-email);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background: var(--appbar-header-color); */
+}
+
+.text-content {
+  color: var(--back);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.17px;
+}
+
+.form2-header {
+  margin: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 120% */
+  letter-spacing: 0.17px;
+}
+
+.form2-accordion-header {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+}
+
+.select-box {
+  height: 50px;
+  width: 100%;
+  margin: 0px !important;
+}
+
+.validation-msg {
+  color: #c62828;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  display: contents;
+}
+
+.form2-accordion-header {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.form2-btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-next-btn-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.add-new-section {
+  font-size: 14px;
+  display: flex;
+  height: 30px;
+  padding: 8px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  /* color: rgb(62, 107, 247) !important;
+  border-color: rgb(62, 107, 247) !important; */
+}
+
+.add-new-section:hover {
+  /* color: rgb(62, 107, 247) !important; */
+  border-color: white !important;
+  background: rgba(28, 28, 28, 0.12) !important;
+}
+
+.accordion-div {
+  padding-bottom: 10px;
+}
+
+/* form3 */
+.form3-main-container {
+  width: 100%;
+}
+
+/* toggle button color change */
+.switch-btn-div > div .e-switch-on {
+  background-color: rgb(62, 107, 247);
+}
+
+.switch-btn-div > div .e-switch-handle.e-switch-active {
+  background-color: rgb(62, 107, 247);
+}
+
+.switch-btn-div > div:hover .e-switch-inner.e-switch-active .e-switch-on {
+  background-color: rgb(62, 107, 247);
+}
+
+.switch-btn-div > div:hover .e-switch-handle.e-switch-active,
+.e-css .switch-btn-div > div:hover .e-switch-handle.e-switch-active {
+  background-color: rgb(62, 107, 247);
+}
+
+/*form4 css*/
+
+.form4-main-container {
+  width: 100%;
+}
+
+.control-pane {
+  padding: 0px 32px;
+}
+
+.button-padding {
+  padding: 0px 32px;
+}
+
+.toggle-back-container {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manage-control-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--risk-score-download-button-color) !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--filename) !important;
+}
+
+.color-define-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  padding: 10px 35px;
+}
+
+.color-define-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.GrayEllipse {
+  fill: var(--risk-score-download-button-color);
+}
+
+.color-define-text {
+  margin: 0px;
+  color: var(--content-text);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.17px;
+}
+
+/* privew css */
+
+.preview-header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 32px 0px;
+}
+
+.accordian-contant {
+  color: var(--name-email);
+}
+
+.accordian-contant > p {
+  word-break: break-word;
+  line-height: normal;
+  margin: 0px;
+}
+
+.risk-accordion-header-name {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+}
+
+.dark-theme .css-1km1ehz {
+  color: var(--name-email);
+}
+
+.css-1636szt {
+  color: grey;
+}
+
+.accordion-div .css-1fx8m19 {
+  color: grey;
+}
+
+.input-group .css-r8u8y9 {
+  color: var(--name-email);
+}
+
+.input-group .css-1wkhih1 {
+  color: grey;
+}

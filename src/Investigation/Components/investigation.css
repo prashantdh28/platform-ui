@@ -1,0 +1,223 @@
+.e-tab-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2;
+  justify-content: flex-start;
+}
+.mainDiv {
+  margin-top: 1px;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  background-color: var(--middlepart);
+  height: 90vh;
+}
+
+.left {
+  background: var(--sidebar-bg);
+  color: var(--name-email);
+  overflow-x: hidden;
+}
+
+.Container_left_mid {
+    grid-column: span 8;
+}
+.left::-webkit-scrollbar {
+  width: 8px;
+}
+.left::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.left::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+ }
+.middle {
+  background: var(--middlepart);
+  position: relative;
+}
+.right-sidebar-pallete {
+  color: var(--name-email);
+  background: var(--sidebar-bg);
+  grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topdiv {
+  border-right-width: 260px;
+  background: var(--container-color);
+  border: 1px solid #1c1c1c0d;
+  height: 36px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 0;
+}
+.threatelement {
+  height: 70px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background: #3e6bf70d;
+  border-radius: 4px;
+  gap: 6px;
+}
+
+.dropicon {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--name-email) !important;
+}
+
+.grid-container div {
+  margin-top: 7px;
+  white-space: nowrap;
+  padding: 2px;
+  align-items: center;
+}
+
+.grid-container div > span {
+  font-size: 12px;
+}
+.grid-container div > div {
+  text-align: center;
+}
+.donebtn {
+  width: 56px;
+  height: 30px;
+  padding: 4px, 10px, 4px, 10px;
+  border-radius: 4px;
+  background-color: #3e6bf7;
+  color: white;
+  border: none;
+}
+
+.search_icon {
+  color: var(--name-email);
+  float: right;
+  background-color: var(--sidebar-bg);
+  margin-right: 4%;
+  border: 1px solid transparent;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: x-large;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: var(--name-email) !important;
+}
+
+.horizontal-line {
+  position: relative;
+  width: 161px;
+  height: 1.5px;
+  background-color: #3e6bf7;
+  margin: auto;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #3e6bf7;
+}
+.dot {
+  position: absolute;
+  left: -5px; /* Adjust this value to control the dot position */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #3e6bf7;
+  border-radius: 50%;
+}
+
+.serch_popup {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--name-email);
+  cursor: pointer;
+}
+
+.leftMid-dragpopup {
+  background: var(--sidebar-bg) !important;
+  color: var(--name-email) !important;
+}
+
+.rightpopup {
+  background: var(--sidebar-bg) !important;
+  color: var(--name-email) !important;
+}
+
+.dragicon {
+  background: var(--sidebar-bg) !important;
+}
+
+.up-arrow {
+  margin-bottom: -57%;
+  display: flex;
+  align-items: flex-end;
+  margin-left: -51%;
+  color: var(--sidebar-bg);
+}
+/* Investigation tab css */
+.hometab {
+  padding: 0px 10px;
+}
+#investigation-tabcount {
+  color: var(--name-email);
+  cursor: pointer !important;
+  border-right: 0.1rem solid #e0dbdb;
+  display: flex;
+  justify-content: center;
+  padding: 0px 7px;
+  align-items: center;
+  /* border-right-width: medium; */
+}
+.crossbtn {
+  display: flex;
+  align-self: center;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.active {
+  background-color: var(--itab) !important;
+  cursor: pointer;
+}
+.active {
+  background-color: var(--itab) !important;
+  cursor: pointer;
+}
+.hometabicon {
+  color: var(--hometabicon);
+}
+.addtab {
+  color: var(--name-email);
+  display: flex;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.InvestigationTab {
+  cursor: pointer;
+  background-color: red;
+}

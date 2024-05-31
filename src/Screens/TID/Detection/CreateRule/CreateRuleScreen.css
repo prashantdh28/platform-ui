@@ -1,0 +1,42 @@
+.TID-CreateRule-MainScreen {
+  display: grid;
+  margin: 15px;
+}
+
+#Create-Rule-Section-Parent {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 20% 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px;
+  padding: 10px;
+  grid-column-gap: 20px;
+  background-color: var(--container-bg-color);
+  border-radius: 8px;
+}
+
+.TID-Create-Rule-LeftScreen {
+  display: grid;
+  grid-auto-flow: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.TID-Create-Rule-RightScreen {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.CreateRule-Header-Name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.17px;
+  color: var(--name-email);
+  margin-bottom: 15px;
+}
+
+.TID-CreateRule-BreadCrumb {
+  padding: 15px 0px 0px 20px !important;
+}

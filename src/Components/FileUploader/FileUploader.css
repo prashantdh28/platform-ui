@@ -1,0 +1,77 @@
+.uploader-click-text {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-content {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.parent-File-uploader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px dashed grey;
+  padding: 20px;
+}
+
+.uploader-parent-text {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
+.uploader-click-text {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 21px */
+  letter-spacing: 0.15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.uploader-drag {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 21px */
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+}
+
+.uploader-SVG {
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  color: var(--file-uploader-text-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%; /* 17.16px */
+  letter-spacing: 0.17px;
+}
+
+.TID-Dialoge-DropDown {
+  width: 100%;
+}
+
+.uploaded-file-name {
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--name-email);
+}
+
+.uploaded-file-info {
+  display: flex;
+}
+
+.uploaded-file-size {
+  color: var(--name-email);
+}

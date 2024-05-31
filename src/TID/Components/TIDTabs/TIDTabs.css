@@ -1,0 +1,105 @@
+#TID-tab {
+  padding: 0% 1% 2% 1%;
+}
+
+#TID-tab #TID-Mitgation #TID-tab_tab_header_items,
+.e-tab .e-tab-header .e-toolbar-item.e-active .e-text-wrap {
+  display: flex !important;
+}
+
+.TID-Parent-breadcrumb,
+.TID-tab,
+.e-tab .e-tab-header .e-toolbar-items {
+  width: 100%;
+  display: flex;
+}
+
+#TID-headers {
+  display: flex;
+  width: 250px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+#TID-tab #TID-Mitgation #TID-tab_tab_header_items .e-tab .e-tab-header:focus {
+  background-color: var(--container-bg-color);
+}
+
+.e-tab .e-tab-header:not(.e-vertical) .e-toolbar-item.e-active:focus {
+  background-color: var(--container-bg-color);
+}
+
+.Coa-grid-container .css-1m5919b.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--grey-color);
+}
+
+.Coa-grid-container .css-1m5919b {
+  color: var(--name-email);
+}
+
+.TID-technique-name-dropdown .css-igs3ac {
+  border-color: var(--grey-color);
+}
+
+.TID-technique-name-dropdown .css-1uvydh2 {
+  color: var(--name-email);
+}
+
+.TID-technique-name-dropdown .css-1636szt,
+.css-1yhq19e {
+  color: grey;
+}
+
+#TID-tab-threat {
+  padding: 15px;
+}
+
+#TID-tab-threat .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap {
+  background-color: var(--container-bg-color) !important;
+}
+
+#TID-tab-threat .e-tab .e-tab-header:not(.e-vertical) .e-toolbar-item.e-active {
+  background-color: var(--container-bg-color) !important;
+}
+
+#TID-tab-threat .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap:focus,
+#e-item-defaultTab_1:focus,
+#e-item-defaultTab_2:focus,
+#e-item-defaultTab_3:focus {
+  margin-bottom: 0 !important;
+  color: var(--name-email) !important;
+  background-color: var(--container-bg-color) !important;
+}
+
+.TID-ThreatCoverage-ParentTabs
+  .e-tab
+  .e-tab-header
+  .e-toolbar-item.e-active
+  .e-tab-wrap {
+  background-color: var(--container-bg-color) !important;
+}
+
+.TID-ThreatCoverage-ParentTabs
+  .e-tab
+  .e-tab-header:not(.e-vertical)
+  .e-toolbar-item.e-active {
+  background-color: var(--container-bg-color) !important;
+}
+
+.TID-ThreatCoverage-ParentTabs
+  .e-tab
+  .e-tab-header
+  .e-toolbar-item.e-active
+  .e-tab-wrap:focus,
+#e-item-defaultTab_1:focus,
+#e-item-defaultTab_2:focus,
+#e-item-defaultTab_3:focus {
+  margin-bottom: 0 !important;
+  color: var(--name-email) !important;
+  background-color: var(--container-bg-color) !important;
+}
+
+#TID-detection-table {
+  display: grid;
+}

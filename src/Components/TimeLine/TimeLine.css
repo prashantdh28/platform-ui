@@ -1,0 +1,51 @@
+.social-timeline-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.css-ha3bif-MuiTimelineItem-root {
+  min-height: 180px;
+}
+
+.likes-replies {
+  display: flex;
+  padding: 1% 2%;
+  gap: 3%;
+}
+
+.comments-likes-replies {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comment {
+  padding: 0% 2%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.timeline-replies,
+.timeline-likes {
+  font-size: 14px;
+  font-weight: 500;
+  color: #616161;
+}
+
+.css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+  margin: 0;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  padding-left: 5%;
+  padding: 6px 16px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.commenter-name {
+  font-size: 20px;
+  font-weight: 600;
+}

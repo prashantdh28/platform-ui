@@ -1,0 +1,24 @@
+.subParent-singleEntityCard {
+}
+
+.innerSide-CreateThreatProfile {
+  margin: 10px;
+  background-color: var(--container-bg-color);
+  padding: 15px;
+}
+
+#TID-CreatethreatProfile-header {
+  font-weight: 700;
+  size: 20px;
+  line-height: 40px;
+  color: var(--name-email);
+}
+
+.SingleEntityLine {
+  border-bottom: 1px solid var(--TID-ThreatCoverage-Lines);
+}
+
+.summary-text-editor {
+  width: 40%;
+  padding: 35px 0px;
+}

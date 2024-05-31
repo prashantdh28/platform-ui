@@ -1,0 +1,86 @@
+.add-entity {
+  border-bottom: 1px solid rgba(28, 28, 28, 0.05);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.elem {
+  height: 184px;
+  margin: 0 0px 0 0;
+}
+.intel-container {
+  grid-template-columns: repeat(4, 1fr);
+}
+.threatscroll {
+  max-height: 183px;
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+  gap: 1rem;
+  display: grid;
+}
+
+.threatscroll::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.threatscroll::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c1f; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Roundness of the scrollbar thumb */
+  height: 8px;
+}
+
+.threatscroll::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+.element {
+  height: 40px !important;
+  width: 40px !important;
+  /* background-color: #3e6bf71a; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.from-to {
+  border-top: 1px solid gray;
+  margin-top: 20px;
+}
+.from {
+  display: flex;
+  justify-content: space-between;
+}
+.to {
+  display: flex;
+  justify-content: space-between;
+}
+#symbolpaletteComponentforAdd_container{
+
+  border: none !important;
+}
+#symbolpaletteComponentforAdd_container .e-acrdn-panel{
+  overflow: auto;
+    height: 4rem;
+    margin: 0px 11px;
+}
+#symbolpaletteComponentforAdd_container  .e-toggle-icon{
+  display: none;
+}
+
+.rightpopup .e-control .e-symbolpalette .e-lib .e-draggable {
+  overflow: hidden;
+}
+.intel-item{
+
+  height: 4rem;
+  overflow-y: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 6px;
+
+}
+.EntityImg{
+height: 4rem;
+width: 4rem;
+padding: 0.5rem 0;
+}

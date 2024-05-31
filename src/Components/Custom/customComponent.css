@@ -1,0 +1,26 @@
+.customChip {
+  border-radius: 0.25rem;
+  background: #ffffff1f;
+  border: 1px solid #ffffff3d;
+  margin: 0.5rem;
+}
+.customeSelect {
+}
+
+/* Custom MartDown Dailogue style  */
+.Dailogue-container-Box > div > div {
+  background-color: rgba(17, 32, 56, 1) !important;
+}
+.dailogue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  color: aliceblue;
+}
+
+.custom-comment-editor {
+  background: #08172F !important;
+  border: 1px solid #1E2B40;
+  border-radius: 6px;
+}

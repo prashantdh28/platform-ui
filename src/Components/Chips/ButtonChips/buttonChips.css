@@ -1,0 +1,9 @@
+.buttonChip {
+  background: var(--button-tag-color);
+  margin-right: 6px;
+  font-weight: 400;
+  text-transform: none;
+  height: 35px;
+  color: var(--button-tag-text-color);
+  border-radius: "6px" !important;
+}

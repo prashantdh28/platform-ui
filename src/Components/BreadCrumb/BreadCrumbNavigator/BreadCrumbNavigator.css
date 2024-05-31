@@ -1,0 +1,43 @@
+.breadcrumb {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  padding-top: 1%;
+}
+.e-breadcrumb .e-breadcrumb-item[data-active-item] .e-breadcrumb-text {
+  color: var(--name-email);
+}
+
+.e-breadcrumb .e-breadcrumb-item a.e-breadcrumb-text {
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+}
+
+.e-breadcrumb .e-breadcrumb-item a.e-breadcrumb-text:hover {
+  cursor: pointer;
+
+  color: var(--name-email);
+}
+.e-breadcrumb .e-breadcrumb-separator {
+  color: gray;
+}
+
+.css-4pdmu4-MuiBreadcrumbs-ol {
+  padding-top: 1% !important;
+  padding-left: 1% !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  color: white;
+}
+
+.last-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.css-1sazv7p-MuiStack-root {
+  font-size: 12px;
+  font-weight: 800;
+}

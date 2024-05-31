@@ -1,0 +1,36 @@
+{
+  "short_name": "Gambit Cyber",
+  "name": "Gambit Cyber - Threat Informed Platform",
+  "icons": [
+    {
+      "src": "maskable_icon.png",
+      "sizes": "110x110",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#051123",
+  "background_color": "#051123"
+}

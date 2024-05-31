@@ -1,0 +1,103 @@
+.card-container-thread {
+  display: flex;
+  flex-direction: column;
+  background: var(--container-bg-color);
+  width: 75%;
+  padding-bottom: 5px;
+  /* height: 450px !important; */
+  color: var(--container-color);
+  border-radius: 8px;
+  height: 490px !important;
+  overflow: auto;
+}
+
+.left-Container {
+  width: 100%;
+  height: auto;
+}
+
+.thread-detail {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+  width: auto;
+  gap: 30px;
+}
+
+.bottom-options {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* padding: 0% 2%; */
+  padding: 0% 1% 1% 0%;
+  align-items: baseline;
+}
+
+.thread-card-main {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 10px;
+}
+
+.thread-card {
+  display: flex;
+  gap: 25px;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.e-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+/* CSS for responsiveness */
+@media (max-width: 800px) {
+  .left-Container {
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  .profileImg {
+    text-align: center;
+  }
+
+  /* .bottom-options {
+    width: 100%;
+  } */
+
+  #profile-card-thread-nodata {
+    color: aqua !important;
+  }
+
+  .thread-detail,
+  .tags,
+  .tags > .e-info {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#profile-card-thread-nodata {
+  color: var(--name-email);
+}
+
+.profileCard-thread-desc {
+  color: var(--desc-color);
+  padding-right: 2%;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 120px;
+  overflow: auto;
+}

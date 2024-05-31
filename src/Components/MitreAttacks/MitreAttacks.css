@@ -1,0 +1,155 @@
+.mitre-table-head {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--name-email);
+}
+
+.mitre-table-data {
+  padding: 10px;
+}
+
+.base {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 10px;
+  color: var(--name-email);
+  padding: 0% 1%;
+  background-color: var(--container-bg-color);
+}
+
+.tech {
+  padding: 0.5rem 0rem;
+  color: var(--mitre-technique-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.box {
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: var(--mitre-attack-bg);
+  color: var(--name-email);
+  border-radius: 5px;
+  width: 240px;
+  justify-content: space-between;
+  display: flex;
+  gap: 5%;
+  padding: 0%;
+  height: 80px;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  /* padding: 10px; */
+  padding: 5px 4px 5px;
+  cursor: pointer;
+  background-color: var(--mitre-attack-bg);
+  color: var(--name-email);
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.children {
+  padding: 10px;
+  display: none;
+}
+
+.selected,
+.selected .box1 {
+  background-color: rgb(62, 107, 247);
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.children.enabled {
+  display: flex !important;
+  min-width: 10rem;
+  justify-content: flex-start;
+  padding: 5px;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.children.enabled .isUsed {
+  color: #fff;
+}
+.children.enabled {
+  padding: 5px;
+  /* border: 1px solid gray; */
+  background: var(--mitre-attack-bg);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.child {
+  padding: 5px;
+  border: 1px solid gray;
+  background: var(--mitre-attack-bg);
+  color: var(--name-email);
+  border-radius: 5px;
+}
+
+.mitre-value {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  /* .box .selected:active{
+    background-color: red;
+  } */
+}
+
+.mitre-header {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.box-antity {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  overflow: auto !important;
+}
+
+.antitiyShape {
+  display: flex;
+  gap: 8px;
+
+  /* width: 50px; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 5%;
+}
+
+.e-chip-list.e-chip .e-chip-text,
+.e-chip-list .e-chip .e-chip-text {
+  color: var(--name-email);
+}
+/* .e-chip-text{
+  color: #000  !important;
+} */
+
+.e-chip-text:hover {
+  color: grey !important;
+}

@@ -1,0 +1,247 @@
+.activity-container {
+  background-color: var(--container-bg-color);
+  padding: 1%;
+  margin: 0% 1%;
+  height: 500px !important;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.activity-header-name {
+  color: var(--name-email);
+}
+
+.activity-card {
+  display: flex;
+  width: 98%;
+  padding: 0% 1% 0% 1%;
+  height: 100px !important;
+  background-color: var(--main-bg-color);
+  margin: 8px auto;
+  /* justify-content: space-between; */
+  gap: 10px;
+  align-items: center;
+}
+
+.activity-card-data {
+  width: 14rem;
+}
+
+.second-row {
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.v-line {
+  width: 1%;
+  height: 50%;
+  background-color: red;
+}
+
+.text-acitivity-table {
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  margin: 1%;
+  height: auto;
+  gap: inherit;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--name-email);
+}
+
+.text-acitivity-table-threads {
+  width: 8rem;
+}
+
+.text-acitivity-table-published {
+  width: 15rem;
+}
+.font-desc {
+  font-size: 13px;
+  font-weight: 400;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.total-threads {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--grey-color);
+}
+
+.num {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--name-email);
+}
+
+.activity-chips {
+  display: flex;
+  width: 25rem;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+
+.like-dislike-logo {
+  display: flex;
+  align-items: center;
+  width: 6%;
+}
+
+.name {
+  color: var(--name-email);
+  cursor: pointer;
+}
+
+.all-card {
+  gap: 10px;
+}
+
+.last-3-logo {
+  fill: red !important;
+  font-size: x-large;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-pencil {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.load-more {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  color: var(--name-email);
+  padding: 1%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.e-icons.e-chevron-down-thin:before {
+  font-size: smaller;
+}
+
+.edit-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.e-icons.e-small {
+  font-size: 10px;
+  color: var(--grey-color);
+}
+
+.heart-icon {
+  color: var(--activity-table-icon-color);
+  cursor: pointer;
+}
+
+.heart-icon:hover {
+  color: red;
+}
+
+.like-icon {
+  color: var(--name-info);
+  cursor: pointer;
+}
+
+.like-icon:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+
+.dislike {
+  color: var(--activity-table-icon-color);
+  cursor: pointer;
+}
+
+.dislike:hover {
+  color: var(--hover-color);
+}
+
+.searchbar- label {
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+  padding-left: 1%;
+}
+
+.parent-div {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1%;
+  gap: 2%;
+}
+
+.square {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #3dcd441a;
+  border-radius: 5px;
+}
+
+.square-edit {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #3e6bf71a;
+  border-radius: 5px;
+}
+.parent-icon {
+  display: flex;
+  align-items: center;
+  width: 4rem;
+}
+
+.noData {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  width: auto;
+  justify-content: center;
+  color: var(--name-email);
+  height: 120px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+.activity-container {
+  color: var(--name-email);
+}
+
+.activity-text {
+  display: flex;
+  justify-content: space-between;
+  color: var(--name-email);
+}

@@ -1,0 +1,12 @@
+.SingleEntity-Report-table-bg {
+  padding: 1% 1% 2% 1%;
+  background-color: var(--container-bg-color);
+}
+
+.SingleEntity-Mitre-Data {
+  padding: 20px 0px;
+  background-color: var(--container-bg-color);
+  width: 100%;
+  overflow: auto;
+  height: 20%;
+}

@@ -1,0 +1,245 @@
+.hunt-detect-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hunt-detect-top-section {
+  display: flex;
+  gap: 1rem;
+}
+
+.hunt-detect-nav-button {
+  width: 14%;
+}
+
+.hunt-detect-graph {
+  border: 1px solid #1e2b40;
+  background: #08172f;
+  width: 85%;
+  border-radius: 0.375rem;
+  padding: 0.9rem;
+}
+
+.death-main-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.death-main-section-header-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* //////////////////////////////////////////////////  Analytics Card Style  //////////////////////////////////////////// */
+.analytics-card-container {
+  width: 99%;
+  border-radius: 0.375rem;
+  background: rgba(8, 23, 47, 1);
+  border: 1px solid #1e2b40;
+  margin: 2rem 0rem;
+  display: flex;
+    max-height: 30rem;
+      height: auto;
+}
+
+.left-part-analytics-card {
+  background-color: rgba(17, 32, 56, 1);
+  width: 25%;
+  padding: 0.5rem 1rem;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  /* padding: 1rem; */
+}
+
+.right-part-analytics-card {
+  display: flex;
+  /* padding: 1rem; */
+  width: 75%;
+}
+
+.left-part-analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 1rem; */
+}
+
+.left-card-content {
+  display: flex;
+  align-items: center;
+  height: 10rem;
+}
+
+.left-card-content-graph {
+  width: 50%;
+}
+
+.left-card-content-names {
+  width: 50%;
+  /* height: 12rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.num-of-analytics {
+  border-radius: 1.9rem;
+  border: 1px solid grey;
+  padding: 0.2rem 1rem;
+  margin-left: 0.6rem;
+  color: white;
+  cursor: pointer;
+}
+
+.detection-analytics-name {
+  font-weight: 500;
+  line-height: 3rem;
+  font-size: large;
+}
+
+.names-for-detection {
+  color: rgba(142, 151, 164, 1);
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+.names-and-count {
+  color: rgba(142, 151, 164, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.platforms-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 1.5rem;
+}
+
+.tech-usage-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+}
+
+.tech-usage-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.6rem 0rem;
+}
+.control-desc-hunt {
+  color: rgb(32, 164, 39);
+  text-decoration: underline;
+  font-weight: 400;
+  z-index: 1;
+    position: relative;
+}
+.control-desc-dailogue-box {
+  height: 28.8rem;
+}
+
+.control-desc-dailogue-content-hunt {
+  padding: 1rem;
+  background: rgba(8, 23, 47, 1);
+  border-radius: 0.7rem;
+  margin: 0rem 1.9rem;
+  color: rgba(142, 151, 164, 1) !important;
+  height: 19rem;
+}
+
+.tech-usage-card-header-hunt-detect {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  text-decoration: underline;
+  color: rgba(0, 130, 249, 1);
+  cursor: pointer;
+}
+
+.tech-usage-card-desc {
+  color: rgba(142, 151, 164, 1);
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+/* /////////////////////////////////////////////// RulesListDailogubox and RuleDailogue Style///////////////////////////////// */
+
+#rule-list-container>div>div {
+  background-color: #112038 !important;
+}
+#rule-dailogue-container>div>div {
+  background-color: #112038 !important;
+}
+
+/*/////////////////////////////////////////////// Hunt Result Styles ///////////////////////////////////////  */
+.hunt-result-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hunt-result-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hunt-result-btn-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.hunt-kql-box {
+  background-color: #112038;
+  padding: 0.6rem 4rem;
+  border-radius: 0.4rem;
+  border: 1px solid #2a3c57;
+  color: #8e97a4;
+}
+
+.hunt-tech-box {
+  background-color: #ffffff14;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  /* width: fit-content; */
+  margin-top: 0.4rem;
+  font-weight: 500;
+  font-size: small;
+  color: white;
+}
+
+.tech-threat-behaviour-main {
+  display: flex;
+  gap: 1rem;
+}
+
+.generated-detail-box {
+  margin-top: 0.4rem;
+  background-color: #ffffff14;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+}
+
+.hunt-text-generate {
+  color: #0082f9;
+}
+
+.hunt-text-top {
+  color: #8e97a4;
+  font-weight: 400;
+  font-size: 0.9rem;
+}

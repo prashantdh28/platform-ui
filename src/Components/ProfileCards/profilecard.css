@@ -1,0 +1,253 @@
+.nameInfo {
+  color: var(--name-info);
+  align-items: start;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  background: var(--container-bg-color);
+  margin: 1% auto;
+  width: 1350px;
+  height: auto;
+  color: var(--container-color);
+  border-radius: 8px;
+}
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--container-bg-color);
+  border-radius: 50px;
+}
+.leftContainer {
+  width: 60%;
+  padding: 10px;
+}
+.checkIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container-bg-color);
+}
+
+.profileCardImg {
+  align-items: center;
+  display: flex;
+  width: 70px;
+  height: 65px;
+}
+
+.img-actor {
+  width: 60px;
+  height: 65px;
+  object-fit: cover;
+}
+.detail {
+  display: flex;
+  padding-left: 36px;
+  gap: 5%;
+}
+.detailSpan {
+  color: rgb(62, 107, 247);
+  margin-right: 5px;
+  align-items: center;
+}
+.online {
+  color: #84ff84;
+}
+
+.profileCard-desc {
+  color: var(--desc-color);
+  padding: 1% 0% 2%;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.buttonCompo {
+  background: var(--button-tag-color);
+  margin: 5px;
+  font-weight: 400;
+  text-transform: none;
+  height: 35px;
+  color: var(--button-tag-text-color);
+  border-radius: "6px" !important;
+}
+
+.buttonCompo:focus {
+  background-color: #fff;
+  color: #252525;
+}
+
+.buttonPlus {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin: 6px;
+}
+.noOfButton {
+  background: var(--container-bg-color);
+  margin-right: 4px;
+  font-weight: 400;
+  text-transform: none;
+  height: 35px;
+  color: var(--card-text-color);
+  border-radius: 4px;
+  border: 1px solid var(--noOfbutton-border-color);
+}
+
+.accordion-header {
+  color: var(--name-email);
+}
+
+.spanName {
+  color: gray;
+}
+
+.tags {
+  color: #918f8f;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.e-checkbox-wrapper .e-checkbox:focus + .e-frame.e-check,
+.e-css.e-checkbox-wrapper .leftContainer.e-checkbox:focus + .e-frame.e-check {
+  background-color: rgb(62, 107, 247) !important;
+  border-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+.e-checkbox-wrapper .e-frame.e-check,
+.e-css.e-checkbox-wrapper .e-frame.e-check {
+  background-color: rgb(62, 107, 247);
+  border-color: transparent;
+  color: #fff;
+}
+
+.e-btn.e-info,
+.e-css.e-btn.e-info {
+  background: rgb(62, 107, 247);
+  border-color: transparent;
+  color: #fff;
+}
+
+.e-checkbox-wrapper .e-frame,
+.e-css.e-checkbox-wrapper .e-frame {
+  background-color: var(--container-bg-color);
+  border-color: var(--card-text-color);
+}
+
+.ProfileCard-name {
+  cursor: pointer;
+  color: var(--card-text-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.inner-text-color {
+  color: var(--card-text-color);
+  font-weight: 400;
+}
+
+.noOfButton:hover {
+  background-color: rgb(62, 107, 247);
+  color: white !important;
+}
+
+.noOfButton:focus {
+  background-color: rgb(62, 107, 247) !important;
+  color: white !important;
+}
+
+.read-more {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tags-button-comp {
+  margin-left: 44px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+/* profilecard.css */
+.popup {
+  position: absolute;
+  top: 54%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 198px;
+
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.e-icons .e-plus {
+  display: flex !important;
+  align-items: center !important;
+}
+
+span.e-icons.e-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.load-more-mainscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+body[data-theme="#20A427"] .buttonCompo:hover {
+  background-color: #20a427;
+  color: #fff;
+}
+body[data-theme="#612EF2"] .buttonCompo:hover {
+  background-color: #612ef2;
+  color: #fff;
+}
+body[data-theme="#3E6BF7"] .buttonCompo:hover {
+  background-color: #3e6bf7;
+  color: #fff;
+}
+body[data-theme="#d7f429"] .buttonCompo:hover {
+  background-color: #d7f429;
+}
+
+body[data-theme="#20a427"]
+  .app-main
+  .Container
+  .leftContainer
+  .profileCard-desc
+  p
+  a {
+  color: #20a427;
+}
+
+body[data-theme="#612EF2"] a {
+  color: #612ef2;
+}
+
+body[data-theme="#d7f429"] a {
+  color: #d7f429;
+}
+
+/* You can customize these styles according to your design requirements. */

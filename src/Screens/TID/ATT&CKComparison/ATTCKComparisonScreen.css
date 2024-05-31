@@ -1,0 +1,82 @@
+.graph-link {
+  background-color: var(--container-bg-color);
+}
+
+.graph-link div {
+  cursor: pointer;
+  padding: 1%;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+}
+
+.graph-entity {
+  color: var(--card-text-color);
+}
+
+.graph-link-text {
+  color: #3e6bf7;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01063rem;
+  text-decoration-line: underline;
+}
+
+.graph-header {
+  display: flex;
+  gap: 3%;
+  padding: 3%;
+}
+
+.graph-nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 5px;
+  color: var(--graph-link-text-color);
+  cursor: pointer;
+}
+
+.graph-nav-link-text {
+  color: var(--graph-link-text-color);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+  letter-spacing: 0.025rem;
+}
+
+.filter-menu-outlined {
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  display: flex !important;
+  width: 13.75rem !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.compress-checkbox .e-label {
+  color: var(--card-text-color) !important;
+}
+
+.mitre-table-container .report-table-header .e-label {
+  color: var(--card-text-color);
+}
+
+.TID-COA-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+  border-radius: 4px;
+  padding: 10px 22px;
+}
+
+.report-table-header .css-16mad8f {
+  color: var(--name-email);
+}

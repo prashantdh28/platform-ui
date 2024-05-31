@@ -1,0 +1,39 @@
+.button-div {
+  display: flex;
+  justify-content: center;
+  float: right;
+
+}
+
+.compare-button {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 112 !important;
+  height: 40 !important;
+  border-radius: 3px;
+}
+
+.new-button {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 5%;
+  border: 1px solid gray !important;
+  width: 112;
+  height: 40;
+
+}
+
+.new-button:hover {
+  background-color: rgb(62, 107, 247) !important;
+  color: white !important;
+}
+
+.new-button:focus {
+  background-color: rgb(62, 107, 247) !important;
+  color: white !important;
+}
+
+.e-btn .e-control .e-lib .new-button{
+  background-color: red;
+}

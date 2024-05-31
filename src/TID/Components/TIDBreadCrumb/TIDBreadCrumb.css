@@ -1,0 +1,22 @@
+.TID-Parent-breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0%;
+}
+
+.TID-Parent-breadcrumb .nav-link {
+  background: transparent;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+.TID-RiskDetection,
+.Tid-Download-Emulation {
+  display: flex;
+  flex-direction: column;
+}
+
+.TID-Parent-breadcrumb .disabled {
+  cursor: not-allowed !important;
+}

@@ -1,0 +1,208 @@
+.TID-finish-download .e-toolbar .e-toolbar-items {
+  background-color: var(--container-bg-color);
+}
+
+.TID-finish-download
+  .e-richtexteditor.e-rte-tb-expand
+  .e-rte-toolbar
+  .e-toolbar-extended.e-popup-open {
+  background-color: var(--container-bg-color);
+}
+
+.TID-finish-download .e-richtexteditor .e-rte-content .e-content,
+.e-richtexteditor .e-source-content .e-content {
+  background-color: var(--container-bg-color);
+}
+
+.TID-finish-download .e-richtexteditor .e-toolbar .e-toolbar-item .e-tbar-btn,
+.e-richtexteditor
+  .e-toolbar.e-extended-toolbar
+  .e-toolbar-extended.e-toolbar-pop
+  .e-toolbar-item
+  .e-tbar-btn {
+  background-color: var(--container-bg-color);
+}
+
+.TID-finish-download
+  .e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-order-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-unorder-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-icons.e-btn-icon:not(.e-caret),
+.e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-order-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-unorder-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-icons.e-btn-icon:not(.e-caret),
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-order-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-unorder-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-icons.e-btn-icon:not(.e-caret),
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-order-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-unorder-list.e-icons,
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-tbar-btn
+  .e-icons.e-btn-icon:not(.e-caret) {
+  color: var(--name-email);
+}
+
+.TID-finish-download .e-richtexteditor .e-rte-content .e-content,
+.e-richtexteditor .e-source-content .e-content {
+  color: var(--name-email);
+}
+
+.TID-finish-download
+  .e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-dropdown-btn
+  .e-rte-dropdown-btn-text,
+.e-richtexteditor
+  .e-rte-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-dropdown-btn
+  .e-rte-dropdown-btn-text,
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-items
+  .e-toolbar-item
+  .e-dropdown-btn
+  .e-rte-dropdown-btn-text,
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar
+  .e-toolbar-extended
+  .e-toolbar-item
+  .e-dropdown-btn
+  .e-rte-dropdown-btn-text {
+  color: var(--name-email);
+}
+
+.TID-finish-download
+  .e-richtexteditor
+  .e-rte-toolbar.e-control[class*="e-toolbar"],
+.e-richtexteditor
+  .e-rte-toolbar.e-toolbar.e-extended-toolbar.e-control[class*="e-toolbar"] {
+  background-color: var(--container-bg-color);
+}
+
+.TID-finish-download .e-toolbar .e-popup-down-icon.e-icons,
+.e-toolbar .e-popup-up-icon.e-icons {
+  color: grey;
+}
+
+.TID-finish-download .e-toolbar .e-popup-down-icon.e-icons,
+.e-toolbar .e-popup-up-icon.e-icons:hover {
+  color: grey;
+}
+
+.TID-finish-download
+  .e-richtexteditor
+  .e-rte-toolbar
+  .e-hor-nav.e-expended-nav {
+  background-color: var(--container-bg-color);
+}
+
+.TID-finish-download .e-toolbar .e-hor-nav:focus .e-icons {
+  color: grey;
+}
+
+.TID-finish-download .e-richtexteditor .e-rte-srctextarea {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+}
+
+#TID-download-Goback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#TID-Download-SAVE-Preview {
+  display: flex;
+  gap: 20px;
+  padding: 0px 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.TID-finish-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 2% 8%;
+  width: 80%;
+}
+
+.TID-Preview-Download {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+}
+
+#TID-DOwnload-type-btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+    align-items: center;
+  width: 100%;
+  /* height: calc(100vh - 50vh); */
+}

@@ -1,0 +1,22 @@
+.TID-CreateRule-Parent {
+  background-color: var(--container-bg-color);
+  padding: 15px;
+}
+
+.TID-leftSide-Componenet-textField
+  .css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+  border-bottom: 1px solid var(--TID-ThreatCoverage-Lines);
+}
+
+.TID-leftSide-Componenet-textField
+  .css-1eed5fa-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: 2px solid grey;
+}
+
+.TID-leftSide-Componenet-textField {
+  padding: 15px 0px;
+}
+
+.TID-CreateRule-Parent .css-p4eupn {
+  color: var(--name-email);
+}

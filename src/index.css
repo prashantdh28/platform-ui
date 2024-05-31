@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root
+  .compare-screen-main
+  .parent-compare-screen
+  .Compare-grid-container
+  .e-gridcontent
+  .e-content
+  table
+  tbody
+  tr:hover
+  .e-rowcell {
+  background-color: var(--container-bg-color);
+  color: grey !important;
+}
+
+#root
+  .addnewcard-mainscreen
+  .profile-accordion
+  .e-control
+  .e-content
+  .e-item
+  .activity-container
+  .table-bg
+  .custom-grid-container
+  .custom-grid
+  .e-gridcontent
+  .e-content
+  table
+  tbody
+  tr:hover
+  .e-rowcell {
+  background-color: var(--container-bg-color);
+  color: grey !important;
+}
+
+#root
+  .addnewcard-mainscreen
+  .profile-accordion
+  .e-control
+  .e-content
+  .e-item
+  .activity-container
+  .table-bg
+  .custom-grid-container
+  .custom-grid
+  .e-gridcontent
+  .e-content
+  table
+  tbody
+  tr:focus
+  .e-rowcell {
+  background-color: var(--container-bg-color);
+  color: grey !important;
+}

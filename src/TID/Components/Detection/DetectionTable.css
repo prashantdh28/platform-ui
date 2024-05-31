@@ -1,0 +1,137 @@
+.detection-table {
+  color: var(--detection-fieldname);
+}
+
+.detection-table.e-grid .e-gridheader {
+  border-color: none !important;
+}
+
+.detection-table.e-grid th.e-headercell {
+  background: var(--detection-table--header-background-color) !important;
+}
+
+.detection-field {
+  color: var(--detection-fieldname);
+}
+
+.detection-field .link {
+  cursor: pointer;
+}
+
+.action-button-group {
+  display: flex;
+  gap: 1rem;
+  color: var(--detection-text-color) !important;
+}
+
+.create-rule-button {
+  border-color: var(--detection-text-color) !important;
+  display: flex !important;
+  height: 2.0625rem !important;
+  padding: 0.625rem !important;
+  gap: 0.625rem !important;
+}
+
+.create-rule-button span {
+  color: var(--detection-fieldname);
+}
+
+.download-rule-button {
+  color: var(--detection-button-color) !important;
+}
+
+.rules-list-Dialog {
+  width: 47.8125rem;
+  height: 23.625rem;
+}
+.rules-list-Dialog.e-dialog {
+  background-color: var(--rules-list-Dialog-background-color);
+  color: var(--rules-list-Dialog-head-color);
+}
+
+.rules-list-Dialog.e-dialog .e-dlg-header-content,
+.e-dlg-header {
+  background-color: var(--rules-list-Dialog-background-color);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--rules-list-Dialog-head-color);
+}
+
+.rules-list-Dialog.e-dialog .e-dlg-content {
+  background-color: var(--rules-list-Dialog-background-color);
+  color: var(--rules-list-Dialog-head-color);
+}
+
+.rules-list-Dialog.e-dialog .e-btn .e-btn-icon.e-icon-dlg-close {
+  color: var(--rules-list-Dialog-head-color);
+}
+
+.rules-Dialog {
+  width: 55.8125rem;
+  height: 42.75rem;
+}
+
+.rule-dialog-buttons {
+  border-radius: 0.25rem !important;
+}
+
+.parent-compare-screen .e-grid .e-table {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+}
+
+.Detection-Table-Chips {
+  /* display: grid;
+  grid-template-columns: min-content;
+  justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#TID-Detection-inputChips {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#TID-Detection-inputChips > div {
+  width: min-content;
+}
+.css-ypiqx9-MuiDialogContent-root {
+  padding: 0px 20px 24px;
+}
+
+.TID-DetectionTable {
+  padding-top: 15px;
+}
+
+.detection-table-header .css-1636szt,
+.css-1yhq19e {
+  color: grey;
+}
+
+.detection-table-header .css-igs3ac {
+  border-color: var(--grey-color);
+}
+
+.detection-table-header .css-1m5919b {
+  color: var(--name-email);
+}
+
+.detection-table-header .css-16mad8f {
+  color: var(--name-email);
+}
+
+.detection-table-header .css-10hburv-MuiTypography-root {
+  color: var(--name-email);
+}
+
+.detection-table-header .css-10a2evn {
+  color: var(--name-email);
+}
+
+.detection-table-header .css-msf0ls {
+  color: var(--name-email);
+}

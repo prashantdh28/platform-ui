@@ -1,0 +1,86 @@
+#TID-Jira-Popup {
+  width: 435px;
+  padding: 16px;
+  display: grid;
+  gap: 15px;
+}
+
+.TID-COA-header-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+}
+
+.TID-slack-message {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+}
+
+.TID-select-Mitigations {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  gap: 8px;
+  grid-auto-rows: 25px;
+}
+
+.TID-dialouge-close-icon {
+  cursor: pointer;
+  fill: var(--grey-color);
+}
+
+.TID-Dialoge-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#TID-Dialoe-Text-Filed {
+  width: 100%;
+}
+
+.TID-Parent-text-filed {
+  display: grid;
+  width: 100%;
+  gap: 15px;
+}
+
+.TID-Parent-text-filed .css-jcincl {
+  color: var(--name-email);
+}
+
+.TID-Parent-text-filed .css-348fk2 {
+  color: var(--name-email);
+}
+
+.TID-Parent-text-filed .css-jcincl::before {
+  border-bottom: 1px solid var(--grey-color);
+}
+.TID-Parent-text-filed .css-p0rm37 {
+  color: var(--name-email);
+}
+
+.TID-Parent-text-filed .css-1636szt {
+  color: grey;
+}
+
+.TID-Parent-text-filed .css-1yhq19e {
+  color: grey;
+}
+/* Phase Border Color */
+.TID-Parent-text-filed .css-igs3ac {
+  border-color: grey;
+}
+
+.TID-Parent-text-filed .css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+  border-bottom: 1px solid var(--grey-color);
+}
+
+.TID-Parent-text-filed .css-1m5919b {
+  color: var(--name-email);
+}

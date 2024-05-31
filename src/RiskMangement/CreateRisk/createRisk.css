@@ -1,0 +1,29 @@
+.createrisk-main-container {
+    padding: 32px;
+}
+
+.header-container {
+    margin-bottom: 32px;
+}
+
+/*carosule css */
+
+.carosole-comp{
+    margin:0 3rem;
+    color: var(--name-email);
+}
+.model-content{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.modal-img{
+    padding-bottom: 10px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-number {
+    text-align: center
+  }

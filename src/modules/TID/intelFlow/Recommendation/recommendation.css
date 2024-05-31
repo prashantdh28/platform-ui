@@ -1,0 +1,159 @@
+.recommendation-container {
+}
+
+.recommendation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommendation-main {
+  gap: 2rem;
+  display: flex;
+  padding: 1rem 0rem;
+  flex-direction: column;
+}
+
+.recommendation-card {
+  border: 1px solid #1e2b40;
+  background: #08172f;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #8e97a4;
+}
+
+.recommendation-card-top {
+  display: grid;
+  grid-auto-flow: column;
+  /* grid-auto-columns: 40% 30% 30%; */
+    grid-auto-columns: 50% 50%;
+  background: #112038;
+  padding: 1rem;
+}
+
+.recommendation-card-technique {
+  display: flex;
+  border-right: 2px solid #1e2b40;
+  margin: 0rem 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.recommendation-card-platforms {
+  display: flex;
+  border-right: 2px solid #1e2b40;
+  margin: 0rem 1rem;
+  padding-right: 1rem;
+  flex-direction: column;
+}
+
+.recommendation-card-used-by {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendation-card-used-by-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.recommendation-card-main {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;
+  height: 13rem;
+  overflow: auto;
+}
+
+.recommendation-card-main-accordion {
+  display: flex;
+  width: 97%;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.recommendation-card-main-accordion-header {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+}
+
+.recommendation-card-main-accordion-header .accordion-header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.181rem;
+}
+
+.accordion-header-left .head {
+  color: #8e97a4;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.181rem;
+}
+
+.accordion-header-left .value {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.actionable_recommendations {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 8% 49% 12% 10% 11% 10%;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.more-icon {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 7px;
+  padding: 4px 4px 0px 4px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+  width: fit-content;
+}
+.dialog-other-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dialog-other-chip-section {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 0.5rem;
+}
+
+.dialog-other-container-head-text {
+  color: #8e97a4;
+}
+.sequence-popup {
+  display: flex;
+  align-items: center;
+}
+.dialog-other-container-value-text {
+  background: #ffffff14;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+.status-recommendation {
+  border: 1px solid;
+  padding: 2px 8px 2px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  font-size: 0.9rem;
+}

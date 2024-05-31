@@ -1,0 +1,212 @@
+.header-icon {
+  display: flex;
+  gap: 1%;
+}
+
+.chat-icon {
+  width: 20px;
+}
+
+.breadcrumb-navigator {
+  margin-left: 1%;
+}
+
+.breadcrumb .e-control .e-breadcrumb .e-lib {
+  margin-left: 1%;
+}
+
+.channel-card {
+  display: flex;
+  width: 98%;
+  height: auto;
+  background-color: var(--main-bg-color);
+  margin: 8px auto;
+  gap: 10px;
+}
+
+.action-thread-card-2 {
+  display: flex;
+  width: 98%;
+  height: 400px !important;
+  background-color: var(--main-bg-color);
+  margin: 8px auto;
+  gap: 10px;
+  overflow: auto;
+}
+
+.action-thread-desc {
+  margin: 1%;
+}
+
+.action-thread-desc-2 {
+  width: 100%;
+  margin: 1%;
+}
+
+.activity-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--name-email);
+}
+
+.activity-paragraph {
+  color: var(--grey-color);
+  width: 60%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.channel-name {
+  color: var(--desc-color);
+}
+.desc-footer {
+  font-size: 14px;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+}
+
+.channel-type {
+  color: var(--grey-color);
+  font-weight: 500;
+}
+
+.channel-type-footer {
+  color: var(--grey-color);
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.forum {
+  color: var(--name-email);
+}
+
+.channel-type-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-component {
+  background: var(--button-tag-color);
+  margin-right: 6px;
+  font-weight: 400;
+  text-transform: none;
+  height: 35px;
+  color: var(--button-tag-text-color);
+  border-radius: "6px" !important;
+}
+
+.btn-component:hover {
+  background-color: #fff;
+  color: #252525;
+}
+
+.btn-component:focus {
+  background-color: #fff;
+  color: #252525;
+}
+
+.headline {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--name-email);
+  cursor: pointer;
+}
+
+.lorem-30 {
+  color: var(--grey-color);
+  margin-top: 3%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.headline-desc {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  margin: 1%;
+  height: 100px;
+}
+
+.thread-box {
+  border: 1px solid black;
+  margin: 1% 0%;
+  border-color: var(--grey-color);
+  width: 100%;
+}
+
+.channel-type-tags {
+  margin-right: 25px;
+  color: var(--grey-color);
+  font-size: 14px;
+  font-style: inherit;
+  font-weight: 500;
+}
+
+.vl {
+  border-left: 1px solid var(--grey-color);
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.headline-lorem30 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.thread-author {
+  font-size: 14;
+  font-weight: 500;
+  color: var(--grey-color);
+}
+
+.thread-author-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--name-email);
+  margin-top: 5%;
+}
+
+.mid-section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Threds-section-1 {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+#Add-Tag {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--grey-color);
+}
+
+.add-tag-button {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 7px;
+}
+
+.desc-footer-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

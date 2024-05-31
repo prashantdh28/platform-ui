@@ -1,0 +1,107 @@
+.TID-Parent-Section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 85px;
+  margin: 1% auto;
+  width: 1350px;
+}
+
+.TID-Search-Dropdown .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 55px !important;
+}
+
+.TID-Search-Dropdown {
+  display: flex;
+  align-items: center;
+  gap: 10px !important;
+}
+
+.tid-parent-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.TID-edit-button {
+  background-color: transparent;
+  color: black !important;
+  border-radius: 5%;
+  border: 1px solid gray !important;
+  width: 112;
+  height: 40;
+}
+
+.Attack-entities-btn {
+  border-radius: 4px;
+  padding: 8px 22px;
+}
+
+#Tid-Entity-filter-icon {
+  color: grey;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.filter-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 85px;
+  color: var(--card-text-color);
+  width: 1350px;
+  margin: 1% auto;
+}
+
+.filter-list li {
+  margin: 0.5rem;
+}
+
+/* chips css */
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4px;
+}
+
+.chip {
+  border-radius: 16px;
+  margin: 4px;
+  height: 1rem;
+  font-size: 0.8rem;
+  gap: 0.5rem;
+  background-color: var(--button-tag-color);
+  padding: 5px 5px 6px 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.delete-icon {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.e-outline .chip {
+  border: 1px solid #000;
+}
+.TID-Search-Dropdown .css-1uvydh2 {
+  color: var(--name-email);
+}
+
+.TID-Parent-Section .css-igs3ac {
+  border-color: var(--grey-color);
+}
+.TID-Parent-Section .css-1636szt,
+.css-1yhq19e {
+  color: grey;
+}
+
+.TID-Parent-Section .css-10hburv-MuiTypography-root {
+  color: var(--name-email);
+}
+
+.DC_btn{
+  color: blue;
+}

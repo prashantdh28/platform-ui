@@ -1,0 +1,51 @@
+.rsk-mtr-container {
+  background: #08172f;
+  border: 1px solid #1e2b40;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.rsk-mtr-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  background: #0082f9b2;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+}
+.mtr-header-name {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  width: 20rem;
+  height: 3.5rem;
+}
+.num-by-num {
+  background: #03030314;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.6rem;
+}
+.desc-content {
+  padding: 1rem;
+  background: rgba(8, 23, 47, 1);
+  border-radius: 0.7rem;
+  margin: 0rem 1.9rem;
+  color: white !important;
+  height: 19rem;
+}
+.desc-dailogue-box {
+  height: 28.8rem;
+}
+.more-icon {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 7px;
+  padding: 4px 4px 0px 4px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+  width: fit-content;
+}
+.show-status {
+  background: #ffffff14;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  border: 1px solid #ffffff3d;
+}

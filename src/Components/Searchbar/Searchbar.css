@@ -1,0 +1,133 @@
+.search-box {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: grey;
+  margin-left: 6%;
+}
+
+.e-input-group .e-control-wrapper {
+  background-color: var(--container-bg-color);
+  border: none;
+  color: var(--search-icon-color);
+}
+
+.e-icons.e-large {
+  font-size: 24px;
+
+  padding: 1%;
+  color: var(--search-icon-color);
+}
+
+.e-input-group .e-control-wrapper .e-valid-input {
+  border: none !important;
+}
+
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(
+    .e-float-icon-left
+  ),
+.e-input-group.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error)
+  .e-input-in-wrap,
+.e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(
+    .e-error
+  ):not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-float-icon-left:not(.e-success):not(
+    .e-warning
+  ):not(.e-error)
+  .e-input-in-wrap,
+.e-float-input.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error)
+  .e-input-in-wrap,
+.e-float-input.e-control-wrapper.e-float-icon-left:not(.e-success):not(
+    .e-warning
+  ):not(.e-error)
+  .e-input-in-wrap {
+  border: none;
+  /* background-color: var(--container-bg-color); */
+  color: var(--name-email);
+}
+
+.e-control input.e-input,
+.e-control .e-input-group input,
+.e-control .e-input-group input.e-input,
+.e-control .e-input-group.e-control-wrapper input,
+.e-control .e-input-group.e-control-wrapper input.e-input,
+.e-control .e-float-input input,
+.e-control .e-float-input.e-control-wrapper input,
+.e-control.e-input-group input,
+.e-control.e-input-group input.e-input,
+.e-control.e-input-group.e-control-wrapper input,
+.e-control.e-input-group.e-control-wrapper input.e-input,
+.e-control.e-float-input input,
+.e-control.e-float-input.e-control-wrapper input {
+  background-color: var(--container-bg-color);
+}
+
+.e-input-group input.e-input,
+.e-input-group textarea.e-input,
+.e-input-group
+  input.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ):not(:focus),
+.e-input-group
+  textarea.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ),
+.e-input-group.e-control-wrapper input.e-input,
+.e-input-group.e-control-wrapper textarea.e-input,
+.e-input-group.e-control-wrapper
+  input.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ):not(:focus),
+.e-input-group.e-control-wrapper
+  textarea.e-input:hover:not(.e-success):not(.e-warning):not(.e-error):not(
+    [disabled]
+  ) {
+  border: 0 solid;
+  border-width: 0;
+  background-color: var(--main-bg-color);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-1h51icj-MuiAutocomplete-root
+  .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root
+  .MuiOutlinedInput-root {
+  padding-right: 9px !important;
+}
+
+.search-icon {
+  font-size: x-large;
+  color: grey;
+  cursor: pointer;
+}
+
+ul.MuiAutocomplete-listbox {
+  background-color: var(--tab-switch-color);
+}
+
+/* Style the Autocomplete menu items */
+li.MuiAutocomplete-option {
+  background-color: var(--tab-switch-color);
+  color: var(--name-email);
+}
+
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  height: 55px;
+} */
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  color: var(--name-email);
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root{
+  color: skyblue;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  color:var(--name-email) !important;
+}

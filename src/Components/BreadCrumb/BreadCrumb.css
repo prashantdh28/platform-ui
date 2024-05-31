@@ -1,0 +1,44 @@
+.parent-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+/* .active #adversary path{
+  fill: rgb(62, 107, 247);
+} */
+
+/* .active #adversary text{
+  fill: #fff;
+} */
+
+.e-acrdn-header-active .e-acrdn-header-icon.e-icons:before {
+  content: "\f056";
+}
+.e-accordion .e-tgl-collapse-icon::before {
+  content: "\e823";
+}
+
+.e-accordion .e-tgl-collapse-icon.e-expand-icon::before {
+  content: "\e934";
+}
+.e-accordion .e-tgl-collapse-icon::before {
+  content: "\e823";
+  font-weight: 400;
+  font-size: 15px;
+  color: gray;
+}
+
+.e-accordion .e-tgl-collapse-icon.e-expand-icon::before {
+  content: "\e934";
+}
+
+.parent-breadcrumb .nav-link {
+  cursor: pointer !important;
+}
+
+.parent-breadcrumb .disabled {
+  cursor: not-allowed !important;
+  pointer-events: none;
+}

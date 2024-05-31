@@ -1,0 +1,192 @@
+/* table */
+.header-padding {
+  padding: 0px 32px;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.td-align {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%
+}
+
+#table-box-data {
+  display: flex;
+  width: 178px;
+  padding: 8px 8px 8px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  color: var(--name-email);
+  border: 1px solid var(--risk-score-box-color);
+  background: var(--risk-score-box-color);
+}
+
+.table-main-data {
+  width: -webkit-fill-available;
+}
+
+.form-table-body {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.header-width-set {
+  width: calc(16.66% - 30px);
+}
+
+.table-width-set {
+  width: calc(16.67% - 28px);
+  color: var(--name-email)
+}
+
+.table-head {
+  border-radius: 4px;
+  background: var(--main-bg-color);
+}
+
+.table-body-div {
+  border-radius: 4px;
+  background: var(--main-bg-color);
+  padding: 32px;
+}
+
+.table-box:hover {
+  cursor: pointer;
+}
+
+.table-box:hover .table-checkbox {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.table-checkbox {
+  display: none;
+}
+
+.table-box:hover .hover-position-fix {
+  position: absolute;
+  left: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.position-fix {
+  position: absolute;
+  left: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+
+.table-td-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-td-inner-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.hover-text {
+  color: var(--hover-text-color);
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 0.17px;
+}
+
+.checkBox-height {
+  width: 18px;
+  height: 18px;
+}
+
+.table-data-name {
+  margin: 0px;
+  color: var(--draft);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  
+
+}
+
+.table-header-text {
+  display: flex;
+  padding: 8px 8px 8px 0px;
+  justify-content: center;
+  align-items: center;
+  color: var(--name-email);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.catagory {
+  width: calc(17%);
+  color: var(--name-email);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.subcategories {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: var(--name-email);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+/* modal css */
+
+.table-modal-header {
+  color: var(--name-email);
+  float: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.table-modal-container {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: var(--name-email)
+}
+
+.form-modal>div>button {
+  color: var(--name-email)
+}
+
+#outlined-multiline-flexible-label {
+  color: var(--name-email) !important
+}
+
+#outlined-multiline-flexible {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--back-button-color) !important
+}

@@ -1,0 +1,28 @@
+#TID-RightSide-DetectionHeader {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  margin: 12px 0px;
+  color: var(--name-email);
+}
+
+.TID-CreateRule-Parent {
+  height: 100vh;
+}
+
+.Detection-CodeEditor {
+  padding: 10px 0x;
+}
+
+#TID-CreateRule-Parent-HE {
+  padding: 15px;
+}
+
+.TID-CreateRule-button-Parent {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px;
+  gap: 30px;
+  margin-top: 15px;
+}

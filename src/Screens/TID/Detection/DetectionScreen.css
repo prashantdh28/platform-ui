@@ -1,0 +1,21 @@
+.detection-table-header {
+      background-color: var(--container-bg-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.detection-table-header .header-text {
+      display: flex;
+      color: var(--name-email);
+      padding: 1%;
+      align-items: center;
+      gap: 5%;
+      width: 50%;
+}
+
+.detection-table-header .header-text .header-title {
+      font-weight: 700;
+      font-size: 20px;
+      font-style: normal;
+}

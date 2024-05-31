@@ -1,0 +1,46 @@
+.e-tab .e-tab-header:not(.e-vertical) .e-toolbar-item.e-active {
+  background-color: var(--tab-switch-color) !important;
+}
+
+.e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap:focus,
+#e-item-defaultTab_1:focus,
+#e-item-defaultTab_2:focus,
+#e-item-defaultTab_3:focus {
+  margin-bottom: 0 !important;
+  color: var(--name-email) !important;
+  background-color: var(--tab-switch-color) !important;
+}
+
+.e-tab .e-tab-header .e-toolbar-item .e-tab-wrap .e-tab-text {
+  color: var(--name-email) !important;
+}
+
+.activity-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+/* Your existing styles */
+
+.right-side-tabs .e-content {
+  display: flex;
+}
+
+.right-side-tabs .e-item.e-hide.e-content {
+  display: none;
+}
+
+/* Example animation styles (modify as needed) */
+.right-side-tabs .e-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.right-side-tabs .e-item.e-hide.e-content {
+  transform: translateX(100%);
+}
+
+.right-side-tabs .e-item.e-show.e-content {
+  transform: translateX(0);
+}

@@ -1,0 +1,29 @@
+.DC_main-card {
+  background-color: var(--container-bg-color);
+  padding: 25px;
+  padding-bottom: 3rem;
+  margin: 20px;
+  border-radius: 7px;
+  color: var(--name-email);
+  min-width: 27rem;
+}
+
+.DC_heading {
+  /* display: flex;
+  gap: 16rem; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-right: 4rem;
+}
+
+.create_new_box {
+  /* border: 1px solid var(--border-color);
+  border-radius: 5px; */
+  /* padding: 0.6rem 3rem;
+  margin-right: 1rem;
+  width: 100%; */
+  padding: 0.6rem;
+  /* margin-right: 4rem; */
+  /* width: 100%; */
+  grid-column: 2 / span 2;
+}

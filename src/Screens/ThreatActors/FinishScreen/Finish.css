@@ -1,0 +1,43 @@
+.finish-square-download {
+  height: 160px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #3e6bf71a;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.finish-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10% 20%;
+}
+
+.ttp-desc {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--name-email);
+}
+
+.Goback-button {
+  background-color: var(--main-bg-color) !important;
+  border-radius: 5%;
+  border: 1px solid gray !important;
+  color: var(--name-email) !important;
+  padding: 8px 10px;
+}
+
+.Goback-button:hover {
+  background-color: var(--main-bg-color);
+  color: var(--name-email) !important;
+}
+
+.Goback-button:focus {
+  background-color: var(--main-bg-color);
+  color: var(--name-email) !important;
+}

@@ -1,0 +1,257 @@
+/* --------->Tabs Risk Score file CSS STRATS HERE <---------- */
+
+.tab-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Riskscore-Header-names {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#tab-iconcolor {
+  color: grey;
+}
+/* --------->Tabs Risk Score file CSS STRATS HERE <---------- */
+
+/* -----> Risk Score file CSS STARTS here <----- */
+.risk-score-main-table-header {
+  display: grid;
+  align-items: center;
+  overflow: auto;
+  grid-template-rows: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+  background-color: var(--container-color);
+}
+
+.risk-header {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  width: 170px;
+  color: var(--name-email);
+}
+
+#risk-category {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+  background-color: var(--breadcrumb-color);
+  display: grid;
+  justify-content: center;
+  padding: 8px 16px 8px 0px;
+}
+
+#risk-subategories {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+  background-color: var(--breadcrumb-color);
+  display: grid;
+  justify-content: center;
+  padding: 8px 16px 8px 0px;
+}
+
+.category-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+  width: 178px;
+  /* height: 140px; */
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-category {
+  display: flex;
+  gap: 40;
+}
+
+.risk-score-rows-header {
+  display: grid;
+  align-items: center;
+  overflow: auto;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  background-color: var(--main-bg-color);
+}
+
+.box-table {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding-top: 15px;
+  background-color: var(--risk-score-bg-color);
+}
+
+#risk-scorecategory-row {
+  display: grid;
+  align-items: start;
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  background-color: var(--risk-score-bg-color);
+}
+
+.risk-headers-parent {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  padding-top: 12px;
+  background-color: var(--risk-score-bg-color);
+  justify-content: center;
+}
+
+.risk-subategories-box {
+  width: 178px;
+  height: auto;
+  background-color: var(--risk-score-box-color);
+  flex-direction: column;
+  word-wrap: break-word;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: row;
+  grid-template-rows: initial;
+  border-radius: 2px;
+  border: 1px solid rgba(28, 28, 28, 0.05);
+}
+
+.subategories-box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  color: var(--name-email);
+}
+
+.risk-subcategory-headers {
+  width: 100%;
+}
+
+.risk-score-button-div
+  .tabs-riskScore
+  .e-tab
+  .e-tab-header:not(.e-vertical)
+  .e-toolbar-item.e-active {
+  background-color: red !important;
+}
+
+/* ---->Dummy CSS Risk Score */
+.parent-categries{
+
+}
+
+
+/* -----> Risk Score file CSS ENDS here <----- */
+
+.e-chip-list.e-chip .e-chip-text,
+.e-chip-list .e-chip .e-chip-text {
+  color: var(--name-email);
+}
+/* .e-chip-text{
+    color: #000  !important;
+  } */
+
+.e-chip-text:hover {
+  color: grey !important;
+}
+
+.TID-tab .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap {
+  border: 0;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.risk-score-container {
+  display: grid;
+  overflow: auto;
+}
+
+.risk-score-section-head {
+  background: var(--main-bg-color);
+  text-align: center;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.risk-score-section-head .head-text {
+  color: var(--name-email);
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.risk-score-section {}
+
+.subategory-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.subategory-container .subategory-box {
+  border: 1px solid var(--risk-score-box-color);
+  border-radius: 2px;
+  /* color: var(--name-email); */
+  color: black;
+  width: 11rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.subategory-container .subategory-box:hover {
+  cursor: pointer;
+}
+
+.colorControlTable {
+  border-collapse: collapse;
+}
+
+.colorControlTableRow th,
+.colorControlTableRow td {
+  border: 1px solid grey;
+  padding: 0.8rem;
+  align-items: center;
+  color: var(--name-email);
+}
+
+.colorControlTableRow th {
+  color: var(--name-email);
+}

@@ -1,0 +1,14 @@
+#TID-Dialogoxbox .e-row {
+  background-color: var(--appbar-header-color);
+}
+
+#TID-Dialogoxbox .e-row:focus {
+  background-color: var(--appbar-header-color);
+  color: var(--name-email);
+}
+
+#TID-dialouge-close-icon-SIGMA {
+  cursor: "pointer";
+  color: "var(--grey-color)";
+  padding-right: 15px;
+}

@@ -1,0 +1,135 @@
+.TID-expandModal-Parent .e-toolbar .e-toolbar-items {
+  background-color: var(--container-bg-color);
+}
+
+.TID-expandModal-Parent .e-toolbar .e-toolbar-items {
+  background-color: var(--TID-RichText-Modal);
+}
+.RichText-Modal-TID-sub-control-close-icon
+  #TID-Modal-Open-RichText
+  .e-rte-content
+  .e-content
+  .e-lib
+  .e-keyboard {
+  background: red !important;
+}
+
+.TID-sub-control-close-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0px 15px;
+  cursor: pointer;
+  color: var(--grey-color);
+}
+
+#Dialogebox-header-TID {
+  padding: 0px 10px 20px 5px;
+  margin: 0;
+}
+
+#TID-DialogeContent-Markdown {
+  color: var(--name-email);
+}
+
+.TID-sub-control-close-icon .css-ypiqx9-MuiDialogContent-root {
+  padding: 0px 20px 24px;
+}
+
+.TID-RichTextModal-Done {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+  padding: 15px 15px 0px 15px;
+  cursor: pointer;
+  color: var(--grey-color);
+}
+
+#TID-Modal-Open-RichText {
+  padding: 25px;
+}
+
+.TID-expandModal-Parent .e-richtexteditor .e-rte-content .e-content,
+.e-richtexteditor .e-source-content .e-content {
+  background-color: var(--TID-RichText-Modal);
+}
+
+.e-richtexteditor .e-toolbar-wrapper {
+  background-color: var(--TID-RichText-Modal);
+}
+
+.TID-expandModal-Parent
+  .e-richtexteditor.e-rte-tb-expand
+  .e-toolbar-wrapper
+  + .e-rte-content {
+  background-color: var(--TID-RichText-Modal);
+}
+.css-ypiqx9-MuiDialogContent-root {
+  padding: 0px 20px 24px;
+}
+
+.RichText-Modal-TID-sub-control-close-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px 0px 15px;
+  cursor: pointer;
+  color: var(--grey-color);
+}
+
+.TID-RichTextModal-Done-btn {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  cursor: pointer;
+  color: var(--grey-color);
+}
+/* texteditor text color */
+#TID-Modal-Open-RichText > div > div {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+  border: 1px solid var(--TID-ModalBorder);
+}
+#TID-Modal-Open-RichText > div {
+  border: 1px solid var(--TID-ModalBorder);
+}
+
+#TID-Modal-Open-RichText > div > div > div > div {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+}
+
+#TID-Modal-Open-RichText > div > div > div > div > div > button {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+}
+
+#TID-Modal-Open-RichText > div > div > div > div > div {
+  background-color: var(--container-bg-color);
+}
+
+#TID-Modal-Open-RichText > div > .e-rte-content > textarea {
+  color: var(--name-email);
+}
+
+.e-rte-img-dialog > .e-dlg-content > .e-img-content > .e-linkheader {
+  color: var(--name-email);
+}
+
+.e-rte-img-dialog
+  > .e-dlg-content
+  > .e-img-content
+  > .e-img-uploadwrap
+  > .e-droptext
+  > .e-rte-upload-text {
+  color: var(--name-email);
+}
+.e-rte-img-dialog > .e-footer-content {
+  background-color: var(--container-bg-color);
+}
+
+.e-rte-img-dialog > .e-dlg-content > .e-img-content > .imgUrl > .e-input {
+  border-bottom: 1px solid var(--grey-color);
+}
+#TID-Modal-Open-RichText > div > .e-rte-content > div > pre {
+  color: var(--name-email);
+}

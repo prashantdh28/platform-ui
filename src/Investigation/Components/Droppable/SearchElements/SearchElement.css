@@ -1,0 +1,129 @@
+.elements {
+  display: flex;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border-top: 1px solid var(--borderTop);
+  background-color: var(--sidebar-bg);
+  color: var();
+  margin-top: 8px;
+}
+
+.searchElement {
+  padding: 39px 12px 19px 15px;
+}
+#TreatActorForSearch{
+  display: flex;
+  flex-direction: column;
+}
+#symbolpalette2_container{
+  border: none;
+}
+#acrdn_header_10{
+  display: none;
+}
+
+.SearchEntity{
+  display: none;
+}
+
+.header-palletElemnt{
+  display: none;
+}
+.searhcbar {
+  border: 1px solid white;
+}
+
+.main_container_element {
+  height: 307px;
+  overflow-y: auto;
+}
+
+.main_container_element::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+  height: 10px;
+}
+
+.main_container_element::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c1f;
+  /* Color of the scrollbar thumb */
+  border-radius: 6px;
+  /* Roundness of the scrollbar thumb */
+  height: 8px;
+}
+
+.main_container_element::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Color of the scrollbar thumb on hover */
+}
+
+.threatelement {
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  gap: 6px;
+  color: var(--name-email);
+  background: #3e6bf70d;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: var(--name-email);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+}
+
+.desc {
+  color: var(--comment-desc);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.17px;
+}
+
+#sel {
+  background-color: red !important;
+}
+
+.serch_popup {
+  background-color: var(--sidebar-bg);
+}
+
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  color: var(--name-email) !important;
+} */
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--name-email) !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: var(--name-email);
+}
+
+.searchElement {
+  border-color: red !important ;
+}
+
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 1px solid grey;
+} */
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 12.5px 14px !important;
+}
+
+.e-tooltip-wrap {
+  display: none !important;
+}

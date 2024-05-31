@@ -1,0 +1,148 @@
+.workspace-main-container {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* margin-right: 1rem; */
+  height: 100%;
+  overflow: auto;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+.my-workspaace-container {
+  /* width: 89%; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  overflow: auto;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.my-workspaace-header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-workspaace-header-text {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1.875rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.my-workspaace-main-section {
+  background-color: #08172f;
+  border: 1px solid #091932;
+  padding: 1rem;
+}
+.all-work-card {
+  /* width: 10rem; */
+  padding: 1rem;
+  border: 1px solid #1e2b40;
+  border-radius: 0.6rem;
+  background-color: #1e2b40;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.all-work-card-conainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+.work-name {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.work-total-saved {
+  color: #8e97a4;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: inherit;
+}
+.date-icon-date {
+  color: #8e97a4;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.worklist-chat-container {
+  display: flex;
+  gap: 1rem;
+}
+.work-list-container {
+  width: 68%;
+  border-radius: 0.375rem;
+  position: relative;
+  padding: 1rem 0rem 1rem 1rem;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #08172f;
+}
+
+.chats-container {
+  width: 32%;
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column;
+  padding: 1rem;
+  background: #08172f;
+  border-radius: 0.375rem;
+  margin: 1rem 0rem;
+  /* height: 50vh; */
+}
+.chats-container-expanded {
+  width: 102%;
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column;
+  padding: 1rem;
+  background: #08172f;
+  border-radius: 0.375rem;
+  margin: 1rem 0rem;
+}
+.chat-box {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.my-msg-box {
+  background: #ffffff0f;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  float: right;
+  width: fit-content;
+  margin-left: auto;
+}
+.generated-msg-container {
+  display: flex;
+  gap: 0.5rem;
+  font-size: medium;
+  font-weight: 400;
+}
+.chess-icon {
+  padding: 0.4rem 0.8rem;
+  border: 2px solid #ffffff3d;
+  height: fit-content;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,93 @@
+.report-text {
+  background-color: var(--container-bg-color);
+  display: flex;
+  color: var(--name-email);
+  padding: 1%;
+}
+
+.report-control-section {
+  display: flex;
+}
+
+.grid-component {
+  background-color: var(--main-bg-color);
+}
+
+.custom-grid-container {
+  height: 400px; /* Set your desired height */
+  overflow-y: scroll;
+  background-color: var(--main-bg-color);
+}
+
+#content-grid_381054312_1colgroup {
+  background-color: var(--container-bg-color);
+}
+
+.e-gridpager .e-control .e-pager .e-lib {
+  background-color: var(--container-bg-color);
+}
+
+.e-pagercontainer {
+  background-color: var(--container-bg-color);
+}
+
+.e-grid th.e-headercell[aria-sort="ascending"] .e-headertext,
+.e-grid th.e-headercell[aria-sort="descending"] .e-headertext,
+.e-grid th.e-headercell[aria-sort="ascending"] .e-sortfilterdiv,
+.e-grid th.e-headercell[aria-sort="descending"] .e-sortfilterdiv {
+  color: var(--grey-color);
+  opacity: 1;
+}
+
+.e-ddt.e-popup .e-treeview > .e-ul {
+  background-color: var(--container-bg-color);
+}
+
+.e-ddt.e-popup .e-treeview > .e-ul:focus {
+  background-color: var(--container-bg-color);
+}
+
+.e-ddt.e-popup .e-treeview > .e-ul:hover {
+  background-color: var(--container-bg-color);
+}
+
+.e-grid .e-headercell,
+.e-grid .e-headertemplate {
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.e-grid .e-icon-ascending::before,
+.e-grid-menu .e-icon-ascending::before {
+  color: darkgrey;
+}
+
+.e-grid
+  .e-gridheader
+  .e-icons:not(.e-icon-hide):not(.e-check):not(.e-stop):not(
+    .e-icon-reorderuparrow
+  ):not(.e-icon-reorderdownarrow) {
+  color: darkgray;
+}
+
+/* .custom-grid-container::-webkit-scrollbar {
+  width: 8px !important; 
+}
+
+.custom-grid-container ::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c1f !important; 
+  border-radius: 6px !important; 
+  height: 8px !important;
+}
+
+.custom-grid-container ::-webkit-scrollbar-thumb:hover {
+  background-color: #555 !important; 
+} */
+.e-grid .e-focused:not(.e-menu-item) {
+  overflow: visible;
+}
+
+.chips {
+  display: flex;
+  justify-content: flex-end;
+}

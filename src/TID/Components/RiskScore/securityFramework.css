@@ -1,0 +1,296 @@
+/* --------->Tabs Risk Score file CSS STRATS HERE <---------- */
+
+/* -----> Risk Score file CSS STARTS here <----- */
+.risk-score-main-table-header {
+  align-items: center;
+  overflow: auto;
+  gap: 10px;
+  background-color: var(--container-color);
+}
+
+.risk-header {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  width: 170px;
+  color: var(--name-email);
+}
+
+#risk-category {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+  background-color: var(--breadcrumb-color);
+  display: grid;
+  justify-content: center;
+  padding: 8px 16px 8px 0px;
+}
+
+#risk-subategories {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+  background-color: var(--breadcrumb-color);
+  display: grid;
+  justify-content: center;
+  padding: 8px 16px 8px 0px;
+}
+
+.category-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.15px;
+  color: var(--name-email);
+  width: 178px;
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-category {
+  display: flex;
+  gap: 40;
+}
+
+.risk-score-rows-header {
+  display: grid;
+  align-items: center;
+  overflow: auto;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  background-color: var(--main-bg-color);
+}
+
+.box-table {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding-top: 15px;
+  background-color: var(--risk-score-bg-color);
+}
+
+#risk-scorecategory-row {
+  display: grid;
+  align-items: start;
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  background-color: var(--risk-score-bg-color);
+}
+
+.risk-headers-parent {
+  align-items: center;
+  display: grid;
+  gap: 10px;
+  padding-top: 12px;
+  background-color: var(--risk-score-bg-color);
+  justify-content: center;
+}
+
+.risk-subategories-box {
+  width: 178px;
+  height: auto;
+  background-color: var(--risk-score-box-color);
+  flex-direction: column;
+  word-wrap: break-word;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: row;
+  border: 1px solid rgba(28, 28, 28, 0.05);
+}
+
+.subategories-box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  color: var(--name-email);
+}
+
+.risk-subcategory-headers {
+  width: 100%;
+}
+
+.risk-score-button-div
+  .tabs-riskScore
+  .e-tab
+  .e-tab-header:not(.e-vertical)
+  .e-toolbar-item.e-active {
+  background-color: red !important;
+}
+
+/* -----> Risk Score file CSS ENDS here <----- */
+
+.e-chip-list.e-chip .e-chip-text,
+.e-chip-list .e-chip .e-chip-text {
+  color: var(--name-email);
+}
+
+.e-chip-text:hover {
+  color: grey !important;
+}
+
+.TID-tab .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap {
+  border: 0;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+/* table */
+.header-padding {
+  padding: 0px 32px;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.td-align {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+
+.table-box-data {
+  display: flex;
+  width: 178px;
+  height: 35px;
+  padding: 8px 8px 8px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  color: var(--name-email);
+  border: 1px solid var(--risk-score-box-color);
+  background: var(--risk-score-box-color);
+}
+
+.table-main-data {
+  width: -webkit-fill-available;
+}
+
+.form-table-body {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.header-width-set {
+  width: calc(16.66% - 30px);
+}
+
+.table-width-set {
+  width: calc(16.67% - 28px);
+  color: var(--name-email);
+}
+
+.table-head {
+  border-radius: 4px;
+  background: var(--main-bg-color);
+}
+
+.table-body-div {
+  border-radius: 4px;
+  background: var(--main-bg-color);
+  padding: 32px;
+}
+
+.table-box:hover {
+  cursor: pointer;
+}
+
+.table-box:hover .table-checkbox {
+  display: block;
+}
+
+.table-checkbox {
+  display: none;
+}
+
+.table-header-text {
+  display: flex;
+  height: 35px;
+  padding: 8px 8px 8px 0px;
+  justify-content: center;
+  align-items: center;
+  color: var(--name-email);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.catagory {
+  width: calc(17%);
+  color: var(--name-email);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.subcategories {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: var(--name-email);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* modal css */
+
+.table-modal-header {
+  color: var(--name-email);
+  float: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.table-modal-container {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: var(--name-email);
+}
+
+.e-dlg-header-content {
+  background-color: var(--appbar-header-color) !important;
+}
+
+.e-dialog .e-btn .e-btn-icon.e-icon-dlg-close {
+  color: var(--name-email);
+}
+
+#outlined-multiline-flexible-label {
+  color: var(--name-email) !important;
+}
+
+#outlined-multiline-flexible {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--back-button-color) !important;
+}

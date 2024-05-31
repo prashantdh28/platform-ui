@@ -1,0 +1,59 @@
+.manage-control-container,
+.manage-control-container:hover {
+    border: none !important;
+    color: var(--name-email);
+    background: var(--appbar-header-color);
+}
+
+.manage-control-header-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 18px 32px 0px 32px;
+}
+
+
+
+.manage-control-header {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.manage-control-table {
+    width: 100%;
+    padding: 32px;
+}
+
+.table-body {
+    vertical-align: baseline;
+    border-radius: 4px;
+    background: var(--itab);
+
+}
+
+.table-header-contant {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-right: 1px solid var(--draft-button-background);
+    border-top: 1px solid var(--draft-button-background);
+}
+
+.manage-select {
+    height: 40px !important;
+}
+
+.manage-btn-div{
+    padding-right:32px;
+    padding-bottom:32px;
+}
+
+.manage-save-btn {
+    float: right;
+}

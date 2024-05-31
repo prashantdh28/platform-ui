@@ -1,0 +1,78 @@
+.report-activity-text {
+  display: flex;
+  color: var(--name-email);
+  padding: 1%;
+  align-items: center;
+  gap: 1%;
+  width: 60%;
+}
+
+.report-table-header {
+  background-color: var(--container-bg-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ttp-defend-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  width: 22%;
+}
+
+.download-button {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.parent-compare-screen {
+  padding: 0% 1%;
+}
+/* CSS code */
+.noData {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: var(--name-email);
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.e-grid .e-gridheader tr:first-child th {
+  background-color: var(--container-bg-color);
+  color: var(--name-email);
+}
+
+.e-grid .e-rowcell:not(.e-editedbatchcell):not(.e-updatedtd),
+.e-grid .e-detailrowcollapse:not(.e-editedbatchcell):not(.e-updatedtd),
+.e-grid .e-detailrowexpand:not(.e-editedbatchcell):not(.e-updatedtd),
+.e-grid .e-rowdragdrop:not(.e-editedbatchcell):not(.e-updatedtd),
+.e-grid .e-gridheader .e-rowdragdrop:not(.e-editedbatchcell):not(.e-updatedtd),
+.e-grid .e-emptyrow:not(.e-editedbatchcell):not(.e-updatedtd) {
+  color: var(--name-email);
+}
+
+.compare-screen-main .mitre-table-container .report-table-header .css-igs3ac {
+  color: var(--name-email);
+  border-color: var(--name-email);
+}
+.compare-screen-main .mitre-table-container .report-table-header .css-1636szt,
+.css-1yhq19e {
+  color: grey;
+}
+
+.report-table-header .css-1m5919b {
+  color: var(--name-email);
+}
+
+.report-table-header .css-10a2evn {
+  color: var(--name-email);
+}
+
+.report-table-header .css-1636szt {
+  color: grey;
+}

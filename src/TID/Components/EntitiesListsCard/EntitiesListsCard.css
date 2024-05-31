@@ -1,0 +1,111 @@
+.TID-ProfileCard-name {
+  color: var(--card-text-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.TID-checkicon-gap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.checkbox-Entitieslists {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  outline: none;
+}
+
+.Entities-card-calendar {
+  padding-top: 10px;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Entities-card-location,
+.Entities-card-currentLocation {
+  padding-top: 23px;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Entities-card-clock {
+  padding-top: 10px;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Entities-Card-Section-2 {
+  width: 40%;
+  padding: 10px;
+  display: grid;
+  align-content: center;
+  gap: 26px;
+}
+
+.Entities-Card-Tags-Parent,
+.Entities-Card-TTP {
+  display: flex;
+  gap: 5%;
+}
+
+.Entities-Card-Alliases {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Entities-Card-Alliases-top {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.Entities-Card-tags {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#TID-edit-button {
+  width: 25px;
+  height: 25px;
+  color: var(--grey-color);
+  padding: 8px;
+  cursor: pointer;
+}
+
+.Tooltipsize {
+  font-size: 13px;
+  color: aliceblue !important;
+}
+
+.TID-allieses {
+  padding: 0.4rem;
+  border-radius: 7px;
+  width: fit-content;
+  height: fit-content;
+  white-space: nowrap;
+}
+
+.profile-img-card{
+  height: 65px;
+  width: 70px;
+}
+
+.profile-img-card .svg-name-path {
+  fill: var(--Profile-Image-color);
+}

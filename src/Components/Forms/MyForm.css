@@ -1,0 +1,9 @@
+.bold-placeholder::placeholder {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+.placeholderComment::-webkit-input-placeholder {
+  color: var(--name-email) !important;
+}

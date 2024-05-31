@@ -1,0 +1,45 @@
+.addnewcard-mainscreen {
+  background-color: var(--main-bg-color);
+  height: 100vh;
+}
+
+.profile-accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.e-tab .e-tab-header {
+  background: inherit !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-weight: normal !important;
+  border-bottom: 0 !important;
+}
+
+#defaultTab_tab_header_items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.e-tab .e-tab-header .e-toolbar-items .e-indicator {
+  display: none !important;
+}
+
+#TID-Mitgation .e-tab .e-tab-header:not(.e-vertical) .e-toolbar-item.e-active {
+  background-color: var(--TID-ThreatCoverage-Tabs);
+}
+
+.e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap:focus,
+#e-item-defaultTab_1:focus,
+#e-item-defaultTab_2:focus,
+#e-item-defaultTab_3:focus {
+  margin-bottom: 0 !important;
+  color: var(--name-email) !important;
+  background-color: var(--tab-switch-color) !important;
+}
+
+.e-tab .e-tab-header .e-toolbar-item .e-tab-wrap .e-tab-text {
+  color: var(--name-email) !important;
+}

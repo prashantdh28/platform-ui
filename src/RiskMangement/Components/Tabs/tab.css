@@ -1,0 +1,59 @@
+#form2Tab-container .e-tab-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#form2Tab-container .e-tab-header  {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form3-tab-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form3-Riskscore-Header-names {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#tab-icon-color {
+  color: grey;
+}
+
+.tab-header-align .e-active > div {
+  background: var(--main-bg-color) !important;
+}
+
+/* .e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-wrap:focus {
+  background: var(--main-bg-color) !important;
+} */
+
+.e-tab-header > div  {
+  width:100%;
+}
+
+.e-tab .e-tab-header .e-toolbar-item:not(.e-separator) {
+  width: 19%;
+}
+
+.e-tab-header > div > div > div{
+    display: flex;
+    justify-content: center;
+}
+
+.tab-header-align {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: flex-start;
+}
