@@ -1,11 +1,9 @@
-
-
 name: React CI/CD Pipeline Dev
 
 on:
   push:
     branches:
-      - development
+      - main
 
 jobs:
   build-and-deploy:
