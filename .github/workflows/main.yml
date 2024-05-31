@@ -1,12 +1,14 @@
-name: Deploy Frontend to S3 and CloudFront
+
+
+name: React CI/CD Pipeline Dev
 
 on:
   push:
     branches:
-      - main  
+      - development
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,13 +18,21 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  
+        node-version: 18
+
+    - name: Install AWS CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y awscli
 
     - name: Install dependencies
-      run: npm i
+      run: |
+        npm install -f
+        npm install @reduxjs/toolkit
 
-    - name: Build project
-      run: npm run build
+    - name: Build React app
+      run: NODE_OPTIONS="--max-old-space-size=4096" npm run build
+
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v2
